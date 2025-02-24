@@ -1,16 +1,20 @@
 using UnityEngine;
+using Unity.MLAgents;
+using Unity.MLAgents.Actuators;
+using Unity.MLAgents.Sensors;
 
-public class MoveToGoalAgent : MonoBehaviour
+public class MoveToGoalAgent : Agent
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Transform Target;
+    
+    public override void CollectObservations(VectorSensor sensor)
     {
-        
+        sensor.AddObservation(transform.position);
+        sensor.AddObservation(Target.position);
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnActionReceived(ActionBuffers actions)
     {
-        
+        Debug.Log(actions.DiscreteActions[0]);
     }
 }
