@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4992670290158199714}
   - component: {fileID: 7672633742554401426}
   m_Layer: 0
-  m_Name: Mediator
+  m_Name: PelletMediator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
