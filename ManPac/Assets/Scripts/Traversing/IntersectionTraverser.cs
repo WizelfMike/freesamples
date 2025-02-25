@@ -8,7 +8,7 @@ public class IntersectionTraverser : MonoBehaviour
     [SerializeField]
     private float Velocity = 1f;
     [SerializeField]
-    [Range(0.1f, 5f)]
+    [Range(0.01f, 5f)]
     private float MinimalIntersectionProximity = 0.1f;
 
     private Vector3 _currentDirection = Vector3.zero;
@@ -23,7 +23,7 @@ public class IntersectionTraverser : MonoBehaviour
     private void Start()
     {
         _currentDirection = Vector3.forward;
-        GivePreferredDirection(Vector2.left);
+        // GivePreferredDirection(Vector2.down);
     }
     
     private void Update()
@@ -78,16 +78,21 @@ public class IntersectionTraverser : MonoBehaviour
         if (!_mayInteractIntersection)
             return false;
 
-        var intersectionPosition = _targetIntersection.transform.position;
-        var currentPosition = transform.position;
-        var newDirection = _targetIntersection.GetDirection(_preferredDirection);
-        var perpendicular2D = Vector2.Perpendicular(new Vector2(newDirection.x, newDirection.z));
-        var perpendicular3D = new Vector3(perpendicular2D.x, 0, perpendicular2D.y);
-        var correctionVector = new Vector3(intersectionPosition.x * perpendicular3D.x , 0, intersectionPosition.z * perpendicular3D.z);
+        if (_preferredDirection == Vector2.zero)
+            _preferredDirection = new Vector2(_currentDirection.x, _currentDirection.z);
         
-        transform.position = (currentPosition - correctionVector);
+        /*
+            Todo! Edge cases for when the current direction is not
+            a viable direction and no preferred direction was given
+        */
+
+        var intersectionPosition = _targetIntersection.transform.position;
+        var newDirection = _targetIntersection.GetDirection(_preferredDirection);
+
+        transform.position = intersectionPosition;
         _currentDirection = newDirection;
 
+        _preferredDirection = Vector2.zero;
         _mayInteractIntersection = false;
         return true;
     }

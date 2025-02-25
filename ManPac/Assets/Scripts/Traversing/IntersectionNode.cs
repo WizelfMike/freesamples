@@ -62,6 +62,7 @@ public class IntersectionNode : MonoBehaviour
                 break;
         }
 
-        return Directions[bestIndex];
+        var newDirection = Directions[bestIndex];
+        return new Vector3(newDirection.x, 0, newDirection.y);
     }
 }

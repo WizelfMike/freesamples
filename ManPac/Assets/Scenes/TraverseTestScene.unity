@@ -289,8 +289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dabfe0e108284e9683e90fc8e05ff550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocity: 1
-  MinimalIntersectionProximity: 0.1
+  Velocity: 2
+  MinimalIntersectionProximity: 0.01
 --- !u!54 &647948314
 Rigidbody:
   m_ObjectHideFlags: 0
