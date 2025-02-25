@@ -604,6 +604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntersectionNode
       objectReference: {fileID: 0}
+    - target: {fileID: 452607758257699217, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
+      propertyPath: m_TagString
+      value: IntersectionNode
+      objectReference: {fileID: 0}
     - target: {fileID: 5436208753811695169, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
       propertyPath: Directions.Array.size
       value: 2
