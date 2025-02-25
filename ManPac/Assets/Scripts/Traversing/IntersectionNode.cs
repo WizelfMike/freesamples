@@ -16,16 +16,16 @@ public class IntersectionNode : MonoBehaviour
     private void OnValidate()
     {
         int directionCount = Directions.Length;
-        for (var i = 0; i < directionCount; i++)
+        for (int i = 0; i < directionCount; i++)
             Directions[i].Normalize();
     }
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
+        Gizmos.color = Color.cyan;
         int directionCount = Directions.Length;
         Vector3 position = transform.position;
-        for (var i = 0; i < directionCount; i++)
+        for (int i = 0; i < directionCount; i++)
         {
             var offsetPosition = position + new Vector3(Directions[i].x, 0, Directions[i].y);
             Gizmos.DrawLine(position, offsetPosition);
@@ -40,7 +40,7 @@ public class IntersectionNode : MonoBehaviour
     }
 
 
-    public Vector3 GetDirection(Vector2 preference)
+    public (Vector3 direction, float correspondence) GetDirection(Vector2 preference)
     {
         preference.Normalize();
         
@@ -48,21 +48,22 @@ public class IntersectionNode : MonoBehaviour
         int bestIndex = 0;
 
         int directionCount = Directions.Length;
-        for (var i = 0; i < directionCount; i++)
+        for (int i = 0; i < directionCount; i++)
         {
-            var currentDirection = Directions[i];
-            var currentBestValue = Vector2.Dot(currentDirection, preference);
+            Vector2 currentDirection = Directions[i];
+            float currentBestValue = Vector2.Dot(currentDirection, preference);
             if (currentBestValue > bestValue)
             {
                 bestValue = currentBestValue;
                 bestIndex = i;
             }
             
+            // Early loop-break when the best-value is 1, meaning a perfect correspondence
             if (Mathf.Abs(bestValue - 1) < Mathf.Epsilon)
                 break;
         }
 
-        var newDirection = Directions[bestIndex];
-        return new Vector3(newDirection.x, 0, newDirection.y);
+        Vector2 newDirection = Directions[bestIndex];
+        return (new Vector3(newDirection.x, 0, newDirection.y), bestValue);
     }
 }
