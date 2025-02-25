@@ -25,6 +25,7 @@ public class IntersectionNode : MonoBehaviour
         Gizmos.color = Color.cyan;
         int directionCount = Directions.Length;
         Vector3 position = transform.position;
+        
         for (int i = 0; i < directionCount; i++)
         {
             var offsetPosition = position + new Vector3(Directions[i].x, 0, Directions[i].y);
