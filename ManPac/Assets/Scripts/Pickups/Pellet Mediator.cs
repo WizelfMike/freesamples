@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Mediator : MonoBehaviour
+public class PelletMediator : MonoBehaviour
 {
     private int pointAmount;
 
