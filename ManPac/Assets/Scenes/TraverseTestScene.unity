@@ -422,13 +422,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntersectionNode (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 5436208753811695169, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
-      propertyPath: Directions.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8709655514510640189, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.96
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8709655514510640189, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
       propertyPath: m_LocalPosition.y
@@ -646,7 +642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8709655514510640189, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.96
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8709655514510640189, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
       propertyPath: m_LocalPosition.y
