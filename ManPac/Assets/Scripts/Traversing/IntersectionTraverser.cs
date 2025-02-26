@@ -2,7 +2,6 @@
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(SphereCollider))]
 public class IntersectionTraverser : MonoBehaviour
 {
     [SerializeField]
