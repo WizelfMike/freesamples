@@ -7,11 +7,13 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     private IntersectionTraverser _intersectionTraverser;
+    [SerializeField]
+    private Vector2 BeginDirection = new (0,1);
 
     private void Start()
     {
         _intersectionTraverser = GetComponent<IntersectionTraverser>();
-        _intersectionTraverser.SetBeginDirection(Vector2.up);
+        _intersectionTraverser.SetBeginDirection(BeginDirection);
     }
 
     public void OnMovement(InputAction.CallbackContext context)
