@@ -46,10 +46,7 @@ public class IntersectionTraverser : MonoBehaviour
         // Turn around when the given input is the opposite of the current direction
         Vector2 twoDCurrentDirection = new Vector2(_currentDirection.x, _currentDirection.z);
         if (Vector2.Dot(newPreferred, twoDCurrentDirection) <= -0.99f)
-        {
             TurnAround();
-            return newPreferred;
-        }
             
         _preferredDirection = newPreferred;
         return _preferredDirection;
