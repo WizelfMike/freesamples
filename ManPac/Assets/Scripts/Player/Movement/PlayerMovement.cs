@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     private IntersectionTraverser _intersectionTraverser;
+    
     [SerializeField]
     private Vector2 BeginDirection = new (0,1);
 
