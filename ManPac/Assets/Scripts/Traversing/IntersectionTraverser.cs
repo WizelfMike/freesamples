@@ -39,6 +39,12 @@ public class IntersectionTraverser : MonoBehaviour
         transform.position += VelocityVector * Time.fixedDeltaTime;
     }
 
+    public void SetBeginDirection(Vector2 direction)
+    {
+        direction.Normalize();
+        _currentDirection = new Vector3(direction.x, 0, direction.y);
+    }
+
     public Vector2 GivePreferredDirection(Vector2 newPreferred)
     {
         newPreferred.Normalize();
@@ -54,6 +60,9 @@ public class IntersectionTraverser : MonoBehaviour
 
     public Vector2 TurnAround()
     {
+        if (_targetIntersection is not null)
+            return _currentDirection;
+        
         _currentDirection = -_currentDirection;
         return _currentDirection;
     }
