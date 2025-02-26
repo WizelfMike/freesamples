@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ManPac
   - IntersectionNode
+  - Goal
   layers:
   - Default
   - TransparentFX
