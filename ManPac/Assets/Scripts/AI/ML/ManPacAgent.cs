@@ -8,10 +8,16 @@ using UnityEngine.Events;
 public class ManPacAgent : Agent
 {
     [SerializeField]
+    private Vector2 BeginDirection;
+    [SerializeField]
     private UnityEvent OnEpisodeBegins;
+
+    [SerializeField]
+    private IntersectionTraverser[] playerTraversers;
 
     private IntersectionTraverser _traverser;
     private Vector3 _startPosition;
+    private Vector3[] _intersectionLocations;
 
     private Vector2[] _inputMapping = new[]
     {
@@ -21,30 +27,51 @@ public class ManPacAgent : Agent
         new Vector2(-1, 0)
     };
 
+    private void OnValidate()
+    {
+        BeginDirection.Normalize();
+    }
+
     private void Start()
     {
         _startPosition = transform.position;
         _traverser = GetComponent<IntersectionTraverser>();
+        
+        IntersectionNode[] intersections = FindObjectsByType<IntersectionNode>(FindObjectsSortMode.None);
+        int intersectionCount = intersections.Length;
+        _intersectionLocations = new Vector3[intersectionCount];
+
+        for (var i = 0; i < intersectionCount; i++)
+            _intersectionLocations[i] = intersections[i].transform.position;
     }
     
     public override void OnEpisodeBegin()
     {
         OnEpisodeBegins.Invoke();
+        _traverser.SetBeginDirection(BeginDirection);
         transform.position = _startPosition;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(transform.position);
+        Vector3 ownPosition = transform.position;
+        Vector3 closestPlayerPos = DistanceHelper.FindClosestGameObject(ownPosition, playerTraversers).transform.position;
+        Vector3 closestIntersectionPos = DistanceHelper.GetClosest(ownPosition, _intersectionLocations);
+        
+        // Adds 3 inputs
+        sensor.AddObservation(ownPosition);
+        // Adds 3 inputs
+        sensor.AddObservation(closestPlayerPos);
+        // Adds 3 inputs
+        sensor.AddObservation(closestIntersectionPos);
+        // ------------------------------------------------ +
+        // Total of 9 inputs
     }
 
     public override void OnActionReceived(ActionBuffers actions)
     {
         int inputOption = actions.DiscreteActions[0];
         Vector2 option = _inputMapping[inputOption];
-        
-        if (_traverser.VelocityVector.magnitude == 0)
-            _traverser.SetBeginDirection(option);
         
         _traverser.GivePreferredDirection(option);
     }

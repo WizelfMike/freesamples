@@ -4093,6 +4093,8 @@ MonoBehaviour:
   OnEpisodeBegins:
     m_PersistentCalls:
       m_Calls: []
+  playerTraversers:
+  - {fileID: 1823624492}
 --- !u!114 &1767690886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4106,8 +4108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 3
-    NumStackedVectorObservations: 1
+    VectorObservationSize: 9
+    NumStackedVectorObservations: 2
     m_ActionSpec:
       m_NumContinuousActions: 0
       BranchSizes: 04000000
@@ -4118,7 +4120,7 @@ MonoBehaviour:
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: My Behavior
+  m_BehaviorName: Enemy
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
