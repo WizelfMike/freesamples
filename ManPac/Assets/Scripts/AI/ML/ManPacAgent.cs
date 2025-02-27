@@ -7,8 +7,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(IntersectionTraverser))]
 public class ManPacAgent : Agent
 {
-    [SerializeField]
-    private Vector2 BeginDirection;
+
     [SerializeField]
     private UnityEvent OnEpisodeBegins;
 
@@ -27,11 +26,6 @@ public class ManPacAgent : Agent
         new Vector2(-1, 0)
     };
 
-    private void OnValidate()
-    {
-        BeginDirection.Normalize();
-    }
-
     private void Start()
     {
         _startPosition = transform.position;
@@ -48,7 +42,6 @@ public class ManPacAgent : Agent
     public override void OnEpisodeBegin()
     {
         OnEpisodeBegins.Invoke();
-        _traverser.SetBeginDirection(BeginDirection);
         transform.position = _startPosition;
     }
 
