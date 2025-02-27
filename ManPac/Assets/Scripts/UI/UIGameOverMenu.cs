@@ -25,7 +25,7 @@ public class UIGameOverMenu : MonoBehaviour
 
     public void OnRetryClicked()
     {
-        LevelNavigation.LoadScene(GameLevelName);
+        LevelNavigation.LoadScene(LevelNavigation.GetPreviousScene());
     }
 
     public void OnMainMenuClicked()

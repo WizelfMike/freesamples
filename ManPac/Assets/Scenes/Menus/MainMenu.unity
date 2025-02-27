@@ -496,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b38b826e40f4efaae073d8fcc898857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: GameLevel
+  LevelName: Scenes/Levels/TestMaze
 --- !u!4 &1088851425
 Transform:
   m_ObjectHideFlags: 0
