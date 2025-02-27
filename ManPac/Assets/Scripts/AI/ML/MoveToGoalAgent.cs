@@ -1,3 +1,8 @@
+/*
+ * This Agent script is used as an example on how Unity's ML-Agents can
+ * be used and trained.
+ */
+
 using System;
 using System.Collections;
 using UnityEngine;
