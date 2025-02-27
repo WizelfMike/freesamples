@@ -12,7 +12,7 @@ public class ManPacAgent : Agent
     private UnityEvent OnEpisodeBegins;
 
     [SerializeField]
-    private IntersectionTraverser[] playerTraversers;
+    private IntersectionTraverser[] PlayerTraversers;
 
     private IntersectionTraverser _traverser;
     private Vector3[] _intersectionLocations;
@@ -33,7 +33,7 @@ public class ManPacAgent : Agent
         int intersectionCount = intersections.Length;
         _intersectionLocations = new Vector3[intersectionCount];
 
-        for (var i = 0; i < intersectionCount; i++)
+        for (int i = 0; i < intersectionCount; i++)
             _intersectionLocations[i] = intersections[i].transform.position;
     }
     
@@ -45,7 +45,7 @@ public class ManPacAgent : Agent
     public override void CollectObservations(VectorSensor sensor)
     {
         Vector3 ownPosition = transform.position;
-        Vector3 closestPlayerPos = DistanceHelper.FindClosestGameObject(ownPosition, playerTraversers).transform.position;
+        Vector3 closestPlayerPos = DistanceHelper.FindClosestGameObject(ownPosition, PlayerTraversers).transform.position;
         Vector3 closestIntersectionPos = DistanceHelper.GetClosest(ownPosition, _intersectionLocations);
         
         // Adds 3 inputs

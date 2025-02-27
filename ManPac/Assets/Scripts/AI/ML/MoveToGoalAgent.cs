@@ -15,11 +15,10 @@ public class MoveToGoalAgent : Agent
     [SerializeField]
     private float MoveSpeed = 1.0f;
     [SerializeField]
-    private GoalManager _Goalmanager;
+    private GoalManager Goalmanager;
 
     private Vector3 _startPosition;
     private bool _hasCompleted = false;
-    private DateTime _startTime;
 
     private void Start()
     {
@@ -28,15 +27,14 @@ public class MoveToGoalAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        _Goalmanager.SetTargetRandom(true);
+        Goalmanager.SetTargetRandom(true);
         transform.position = _startPosition;
-        _startTime = DateTime.Now;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
         sensor.AddObservation(transform.position);
-        sensor.AddObservation(_Goalmanager.GoalInstance.transform.position);
+        sensor.AddObservation(Goalmanager.GoalInstance.transform.position);
     }
 
     public override void OnActionReceived(ActionBuffers actions)
