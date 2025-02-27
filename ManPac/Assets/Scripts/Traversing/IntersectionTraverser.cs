@@ -17,7 +17,6 @@ public class IntersectionTraverser : MonoBehaviour
     private Vector3 _currentDirection = Vector3.zero;
     private Vector2 _preferredDirection = Vector3.zero;
     private IntersectionNode _targetIntersection;
-    private bool _mayInteractIntersection = false;
 
     public float CurrentVelocity
     {
@@ -78,7 +77,6 @@ public class IntersectionTraverser : MonoBehaviour
             return;
 
         _targetIntersection = intersectionNode;
-        _mayInteractIntersection = true;
     }
 
     private void OnTriggerExit(Collider other)
@@ -98,16 +96,15 @@ public class IntersectionTraverser : MonoBehaviour
 
     private bool InteractWithIntersection()
     {
-        if (!_mayInteractIntersection)
-            return false;
-
         if (_preferredDirection == Vector2.zero)
             _preferredDirection = new Vector2(_currentDirection.x, _currentDirection.z);
         
         Vector3 intersectionPosition = _targetIntersection.transform.position;
         (Vector3 newDirection, float correspondence)= _targetIntersection.GetDirection(_preferredDirection);
-
-        transform.position = intersectionPosition;
+        
+        if (Vector3.Dot(_currentDirection, newDirection) <= 0.99f)
+            transform.position = intersectionPosition;
+        
         if (correspondence <= 0.01f)
         {
             _currentDirection = Vector2.zero;
@@ -118,7 +115,6 @@ public class IntersectionTraverser : MonoBehaviour
         _currentDirection = newDirection.normalized;
 
         _preferredDirection = Vector2.zero;
-        _mayInteractIntersection = false;
         OnIntersectionInteraction.Invoke(_targetIntersection);
         return true;
     }
