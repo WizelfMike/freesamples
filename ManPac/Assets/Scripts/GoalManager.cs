@@ -12,9 +12,9 @@ public class GoalManager : MonoBehaviour
 
     public void SetTargetRandom(bool isLocalSpace = true)
     {
-        var index = Random.Range(0, SpawnPoints.Length);
-        var instance = GoalInstance;
-        var nextPosition = SpawnPoints[index];
+        int index = Random.Range(0, SpawnPoints.Length);
+        GameObject instance = GoalInstance;
+        Vector3 nextPosition = SpawnPoints[index];
         instance.transform.SetParent(transform.parent);
         
         if (isLocalSpace)

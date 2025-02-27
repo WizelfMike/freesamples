@@ -41,8 +41,8 @@ public class MoveToGoalAgent : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        var moveX = actions.ContinuousActions[0];
-        var moveZ = actions.ContinuousActions[1];
+        float moveX = actions.ContinuousActions[0];
+        float moveZ = actions.ContinuousActions[1];
 
         transform.position += new Vector3(moveX, 0, moveZ) * Time.deltaTime * MoveSpeed;
     }
@@ -64,23 +64,4 @@ public class MoveToGoalAgent : Agent
         
         EndEpisode();
     }
-
-    // private IEnumerator WaitForEpisodeEnd(float secondsDuration)
-    // {
-    //     yield return new WaitForSeconds(secondsDuration);
-    //     if (_hasCompleted)
-    //         yield break;
-    //
-    //     _hasCompleted = true;
-    //     SetReward(CalcEndRewardAddition());
-    //     EndEpisode();
-    // }
-
-    // private float CalcEndRewardAddition()
-    // {
-    //     var currentTime = DateTime.Now;
-    //     var diff = (float)(currentTime - _startTime).TotalSeconds;
-    //     var distance = 4.0f - Vector3.Distance(Target.position, transform.position);
-    //     return distance * (1 / diff);
-    // }
 }
