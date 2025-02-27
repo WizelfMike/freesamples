@@ -8,6 +8,8 @@ public class GameOverCheck : MonoBehaviour
     
     private GameOverState _currentState = GameOverState.Playing;
     
+    public GameOverState CurrentState => _currentState;
+    
     public void OnNoPellets()
     {
         Debug.Log("You Lost!");

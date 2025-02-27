@@ -15,7 +15,6 @@ public class ManPacAgent : Agent
     private IntersectionTraverser[] playerTraversers;
 
     private IntersectionTraverser _traverser;
-    private Vector3 _startPosition;
     private Vector3[] _intersectionLocations;
 
     private Vector2[] _inputMapping = new[]
@@ -28,7 +27,6 @@ public class ManPacAgent : Agent
 
     private void Start()
     {
-        _startPosition = transform.position;
         _traverser = GetComponent<IntersectionTraverser>();
         
         IntersectionNode[] intersections = FindObjectsByType<IntersectionNode>(FindObjectsSortMode.None);
@@ -42,7 +40,6 @@ public class ManPacAgent : Agent
     public override void OnEpisodeBegin()
     {
         OnEpisodeBegins.Invoke();
-        transform.position = _startPosition;
     }
 
     public override void CollectObservations(VectorSensor sensor)

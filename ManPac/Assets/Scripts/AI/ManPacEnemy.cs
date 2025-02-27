@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(SpawnpointUser))]
 [RequireComponent(typeof(IntersectionTraverser))]
 public class ManPacEnemy : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class ManPacEnemy : MonoBehaviour
     private UnityEvent<GameObject> OnGotHitByPlayer;
 
     private IntersectionTraverser _traverser;
+    private SpawnpointUser _spawnpointUser;
     
     private void OnValidate()
     {
@@ -20,6 +22,9 @@ public class ManPacEnemy : MonoBehaviour
     private void Start()
     {
         _traverser = GetComponent<IntersectionTraverser>();
+        _spawnpointUser = GetComponent<SpawnpointUser>();
+        
+        _spawnpointUser.ToSpawnPoint();
         _traverser.SetBeginDirection(BeginDirection);
     }
 
@@ -27,5 +32,11 @@ public class ManPacEnemy : MonoBehaviour
     {
         if (other.CompareTag("Player"))
             OnGotHitByPlayer.Invoke(other.gameObject);
+    }
+
+    public void OnAgentEpisodeBegan()
+    {
+        _spawnpointUser.ToSpawnPoint();
+        _traverser.SetBeginDirection(BeginDirection);
     }
 }

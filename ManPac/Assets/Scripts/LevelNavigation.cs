@@ -12,4 +12,9 @@ public static class LevelNavigation
     {
         return SceneManager.LoadSceneAsync(sceneName, loadParameters);
     }
+
+    public static Scene LoadSceneSync(string sceneName, LoadSceneParameters loadParameters = new LoadSceneParameters())
+    {
+        return SceneManager.LoadScene(sceneName, loadParameters);
+    }
 }

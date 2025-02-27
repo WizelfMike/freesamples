@@ -2,9 +2,28 @@ using UnityEngine;
 
 public class PersistentGameState : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField]
+    private bool OverridePrevious = false;
+    
+    private static PersistentGameState _instance;
+
+    private void Awake()
     {
+        if (_instance != null)
+        {
+            if (OverridePrevious)
+            {
+                Destroy(_instance.gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+                return;
+            }
+            
+        }
+
+        _instance = this;
         DontDestroyOnLoad(this);
     }
 }
