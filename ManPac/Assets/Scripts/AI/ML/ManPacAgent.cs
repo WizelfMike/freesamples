@@ -7,16 +7,14 @@ using UnityEngine.Events;
 [RequireComponent(typeof(IntersectionTraverser))]
 public class ManPacAgent : Agent
 {
-    [SerializeField]
-    private Vector2 BeginDirection;
+
     [SerializeField]
     private UnityEvent OnEpisodeBegins;
 
     [SerializeField]
-    private IntersectionTraverser[] playerTraversers;
+    private IntersectionTraverser[] PlayerTraversers;
 
     private IntersectionTraverser _traverser;
-    private Vector3 _startPosition;
     private Vector3[] _intersectionLocations;
 
     private Vector2[] _inputMapping = new[]
@@ -27,35 +25,27 @@ public class ManPacAgent : Agent
         new Vector2(-1, 0)
     };
 
-    private void OnValidate()
-    {
-        BeginDirection.Normalize();
-    }
-
     private void Start()
     {
-        _startPosition = transform.position;
         _traverser = GetComponent<IntersectionTraverser>();
         
         IntersectionNode[] intersections = FindObjectsByType<IntersectionNode>(FindObjectsSortMode.None);
         int intersectionCount = intersections.Length;
         _intersectionLocations = new Vector3[intersectionCount];
 
-        for (var i = 0; i < intersectionCount; i++)
+        for (int i = 0; i < intersectionCount; i++)
             _intersectionLocations[i] = intersections[i].transform.position;
     }
     
     public override void OnEpisodeBegin()
     {
         OnEpisodeBegins.Invoke();
-        _traverser.SetBeginDirection(BeginDirection);
-        transform.position = _startPosition;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
         Vector3 ownPosition = transform.position;
-        Vector3 closestPlayerPos = DistanceHelper.FindClosestGameObject(ownPosition, playerTraversers).transform.position;
+        Vector3 closestPlayerPos = DistanceHelper.FindClosestGameObject(ownPosition, PlayerTraversers).transform.position;
         Vector3 closestIntersectionPos = DistanceHelper.GetClosest(ownPosition, _intersectionLocations);
         
         // Adds 3 inputs

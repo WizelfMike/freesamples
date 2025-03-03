@@ -246,7 +246,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -406,7 +406,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -484,7 +484,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -562,7 +562,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -640,7 +640,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -718,7 +718,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -882,7 +882,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -960,7 +960,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1128,7 +1128,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1314,7 +1314,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1392,7 +1392,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1646,7 +1646,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1724,7 +1724,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1802,7 +1802,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -1970,7 +1970,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2048,7 +2048,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2126,7 +2126,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2299,7 +2299,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2377,7 +2377,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2627,7 +2627,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2705,7 +2705,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2783,7 +2783,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2861,7 +2861,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -2939,7 +2939,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -3017,7 +3017,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -3267,7 +3267,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -3431,7 +3431,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -3580,6 +3580,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8709655514510640189, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
   m_PrefabInstance: {fileID: 293387119}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &293767231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804510530562650134, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180286042385576872, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: m_Name
+      value: GameState
+      objectReference: {fileID: 0}
+    - target: {fileID: 2782340295671094544, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OverridePrevious
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+--- !u!114 &293767232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3111508647291494362, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+  m_PrefabInstance: {fileID: 293767231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbdb80f3368c1e49b0de5ea95fb0b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &299070031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3797,7 +3869,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -3965,7 +4037,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4048,7 +4120,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4126,7 +4198,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4312,7 +4384,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4480,7 +4552,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4558,7 +4630,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4722,7 +4794,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4908,7 +4980,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -4986,7 +5058,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -5262,7 +5334,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -5537,74 +5609,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1001 &436051198
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2778498334568006048, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_Name
-      value: PelletMediator
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4992670290158199714, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
---- !u!114 &436051199 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7672633742554401426, guid: 99973d474adc2814caf1a63c850e7fa9, type: 3}
-  m_PrefabInstance: {fileID: 436051198}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bbdb80f3368c1e49b0de5ea95fb0b5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &437492983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5624,7 +5628,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -5702,7 +5706,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -5780,7 +5784,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -5858,7 +5862,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -5936,7 +5940,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -6014,7 +6018,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -6458,7 +6462,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -6626,7 +6630,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -6704,7 +6708,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -6864,7 +6868,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7122,7 +7126,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7200,7 +7204,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7278,7 +7282,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7356,7 +7360,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7542,7 +7546,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7620,7 +7624,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7698,7 +7702,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -7974,7 +7978,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8268,7 +8272,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8346,7 +8350,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8622,7 +8626,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8700,7 +8704,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8778,7 +8782,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8856,7 +8860,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -8934,7 +8938,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9012,7 +9016,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9090,7 +9094,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9168,7 +9172,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9246,7 +9250,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9522,7 +9526,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9600,7 +9604,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9659,6 +9663,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
   m_PrefabInstance: {fileID: 766080044}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &779151778 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5565745526955770951, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+  m_PrefabInstance: {fileID: 293767231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64a338c999b428bba64c80acebb070f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &780997976
 GameObject:
   m_ObjectHideFlags: 0
@@ -9786,7 +9801,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -9942,7 +9957,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10020,7 +10035,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10196,7 +10211,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10360,7 +10375,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10438,7 +10453,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10606,7 +10621,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10684,7 +10699,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10762,7 +10777,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -10948,7 +10963,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11026,7 +11041,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11104,7 +11119,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11398,7 +11413,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11476,7 +11491,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11535,6 +11550,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
   m_PrefabInstance: {fileID: 898167298}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &903714039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 903714040}
+  m_Layer: 0
+  m_Name: EnemySpawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &903714040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903714039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 961274119}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &906426647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11554,7 +11600,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11632,7 +11678,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11710,7 +11756,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -11896,7 +11942,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -12063,6 +12109,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961162130}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &961274118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961274119}
+  m_Layer: 0
+  m_Name: SpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961274119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961274118}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 903714040}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &961496945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12269,7 +12347,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -12671,7 +12749,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -12749,7 +12827,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -12827,7 +12905,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -12905,7 +12983,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -12983,7 +13061,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13169,7 +13247,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13325,7 +13403,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13493,7 +13571,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13571,7 +13649,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13649,7 +13727,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13727,7 +13805,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13805,7 +13883,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -13883,7 +13961,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14043,7 +14121,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14121,7 +14199,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14199,7 +14277,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14277,7 +14355,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14463,7 +14541,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14541,7 +14619,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14779,7 +14857,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14857,7 +14935,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -14935,7 +15013,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15013,7 +15091,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15091,7 +15169,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15259,7 +15337,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15427,7 +15505,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15595,7 +15673,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15673,7 +15751,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15751,7 +15829,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15829,7 +15907,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15907,7 +15985,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -15985,7 +16063,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16063,7 +16141,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16141,7 +16219,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16309,7 +16387,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16387,7 +16465,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16555,7 +16633,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16633,7 +16711,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16711,7 +16789,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -16987,7 +17065,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17065,7 +17143,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17251,7 +17329,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17329,7 +17407,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17407,7 +17485,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17701,7 +17779,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17779,7 +17857,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -17947,7 +18025,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18025,7 +18103,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18103,7 +18181,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18181,7 +18259,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18259,7 +18337,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18337,7 +18415,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18415,7 +18493,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18493,7 +18571,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18571,7 +18649,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18731,7 +18809,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18899,7 +18977,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -18977,7 +19055,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19055,7 +19133,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19133,7 +19211,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19211,7 +19289,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19289,7 +19367,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19367,7 +19445,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19635,7 +19713,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19713,7 +19791,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -19899,7 +19977,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20055,7 +20133,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20133,7 +20211,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20319,7 +20397,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20397,7 +20475,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20475,7 +20553,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20742,7 +20820,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -20820,7 +20898,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21230,7 +21308,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21308,7 +21386,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21386,7 +21464,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21572,7 +21650,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21650,7 +21728,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21728,7 +21806,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21806,7 +21884,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -21884,7 +21962,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22130,7 +22208,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22208,7 +22286,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22286,7 +22364,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22436,7 +22514,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22592,7 +22670,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22670,7 +22748,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -22856,7 +22934,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -23118,7 +23196,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -23196,7 +23274,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -23274,7 +23352,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -23352,7 +23430,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -23675,7 +23753,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24083,7 +24161,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24161,7 +24239,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24515,7 +24593,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24593,7 +24671,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24671,7 +24749,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24749,7 +24827,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -24827,7 +24905,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25069,7 +25147,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25147,7 +25225,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25333,7 +25411,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25411,7 +25489,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25489,7 +25567,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25657,7 +25735,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25735,7 +25813,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25813,7 +25891,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -25891,7 +25969,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26055,7 +26133,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26133,7 +26211,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26487,7 +26565,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26565,7 +26643,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26643,7 +26721,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26721,7 +26799,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26799,7 +26877,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -26985,7 +27063,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27171,7 +27249,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27249,7 +27327,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27327,7 +27405,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27405,7 +27483,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27483,7 +27561,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27669,7 +27747,7 @@ PrefabInstance:
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 436051199}
+      objectReference: {fileID: 293767232}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
@@ -27898,11 +27976,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1305804747776144277, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: m_TagString
-      value: ManPac
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: Velocity
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: MinimalIntersectionProximity
@@ -27973,9 +28051,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3262199917601870400, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 903714040}
     - target: {fileID: 8677901751381218370, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: m_Name
       value: ManPac
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: BeginDirection.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: OnGotHitByPlayer.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: OnGotHitByPlayer.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 779151778}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: OnGotHitByPlayer.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: OnGotHitByPlayer.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnManPacGotHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: OnGotHitByPlayer.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameOverCheck, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730721443814034871, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: OnGotHitByPlayer.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27988,7 +28098,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1821229476}
   - {fileID: 1826474925}
-  - {fileID: 436051198}
+  - {fileID: 293767231}
+  - {fileID: 961274119}
   - {fileID: 964546723}
   - {fileID: 12906616}
   - {fileID: 1855126752}
