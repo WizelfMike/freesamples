@@ -15,7 +15,6 @@ public class GameOverCheck : MonoBehaviour
         if (_currentState != GameOverState.Playing)
             return;
         
-        Debug.Log("You Lost!");
         _currentState = GameOverState.PlayerLost;
         OnGameOver.Invoke(_currentState);
     }
@@ -25,7 +24,6 @@ public class GameOverCheck : MonoBehaviour
         if (_currentState != GameOverState.Playing)
             return;
         
-        Debug.Log("You Won!");
         _currentState = GameOverState.PlayerWon;
         OnGameOver.Invoke(_currentState);
     }
