@@ -243,6 +243,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -345,6 +357,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -446,6 +470,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -638,6 +674,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -1046,6 +1094,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8709655514510640189, guid: f995cd4860a457543bddf052efb2ba61, type: 3}
   m_PrefabInstance: {fileID: 207942277}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &220605792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.415
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704653261908243754, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2527592871920778750, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2527592871920778750, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452135681348239986, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_Name
+      value: PowerPellet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582755653287903117, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582755653287903117, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
 --- !u!1001 &250426766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1139,6 +1260,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -1241,6 +1374,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -1354,6 +1499,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -1564,6 +1721,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -2004,6 +2173,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2105,6 +2286,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -2208,6 +2401,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2309,6 +2514,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -2521,6 +2738,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2622,6 +2851,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -2923,6 +3164,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3115,6 +3368,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3216,6 +3481,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -3319,6 +3596,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3421,6 +3710,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3522,6 +3823,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -3711,6 +4024,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3812,6 +4137,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -3915,6 +4252,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4017,6 +4366,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4118,6 +4479,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -4562,6 +4935,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -5053,6 +5438,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -5155,6 +5552,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -5256,6 +5665,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -5391,6 +5812,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pellet (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -5492,6 +5925,18 @@ PrefabInstance:
     - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_Name
       value: Pellet (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008057035462802280, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: SeriesLength
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: BobbingMagnitude
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -5811,3 +6256,4 @@ SceneRoots:
   - {fileID: 190178225}
   - {fileID: 1661549167766675222}
   - {fileID: 4368177794289213192}
+  - {fileID: 220605792}
