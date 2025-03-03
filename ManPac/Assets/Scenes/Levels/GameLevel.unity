@@ -244,16 +244,40 @@ PrefabInstance:
       value: Pellet (27)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -322,16 +346,40 @@ PrefabInstance:
       value: Pellet (9)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -400,16 +448,40 @@ PrefabInstance:
       value: Pellet (23)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -568,16 +640,40 @@ PrefabInstance:
       value: Pellet (10)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1045,16 +1141,40 @@ PrefabInstance:
       value: Pellet (22)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1123,16 +1243,40 @@ PrefabInstance:
       value: Pellet (7)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1212,16 +1356,40 @@ PrefabInstance:
       value: Pellet (5)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1398,16 +1566,40 @@ PrefabInstance:
       value: Pellet (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1813,16 +2005,40 @@ PrefabInstance:
       value: Pellet (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1891,16 +2107,40 @@ PrefabInstance:
       value: Pellet (30)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1969,16 +2209,40 @@ PrefabInstance:
       value: Pellet (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2047,16 +2311,40 @@ PrefabInstance:
       value: Pellet (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2234,16 +2522,40 @@ PrefabInstance:
       value: Pellet (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2312,16 +2624,40 @@ PrefabInstance:
       value: Pellet (28)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2588,16 +2924,40 @@ PrefabInstance:
       value: Pellet (24)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2756,16 +3116,40 @@ PrefabInstance:
       value: Pellet (26)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2834,16 +3218,40 @@ PrefabInstance:
       value: Pellet (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2912,16 +3320,40 @@ PrefabInstance:
       value: Pellet (29)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2990,16 +3422,40 @@ PrefabInstance:
       value: Pellet (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3068,16 +3524,40 @@ PrefabInstance:
       value: Pellet (21)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3232,16 +3712,40 @@ PrefabInstance:
       value: Pellet (14)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3310,16 +3814,40 @@ PrefabInstance:
       value: Pellet (25)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3388,16 +3916,40 @@ PrefabInstance:
       value: Pellet (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3466,16 +4018,40 @@ PrefabInstance:
       value: Pellet (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3544,16 +4120,40 @@ PrefabInstance:
       value: Pellet (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3964,16 +4564,40 @@ PrefabInstance:
       value: Pellet (13)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4430,16 +5054,40 @@ PrefabInstance:
       value: Pellet (11)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4508,16 +5156,40 @@ PrefabInstance:
       value: Pellet (12)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4586,16 +5258,40 @@ PrefabInstance:
       value: Pellet (8)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4696,16 +5392,40 @@ PrefabInstance:
       value: Pellet (15)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4774,16 +5494,40 @@ PrefabInstance:
       value: Pellet (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 436051199}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AddScore
       objectReference: {fileID: 0}
     - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: onPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PelletMediator, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889182815885772004, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
+      propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8453244949324958768, guid: 47ad30c0368406e46818e9c3f9994bc4, type: 3}
       propertyPath: m_LocalPosition.x

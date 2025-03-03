@@ -3,12 +3,18 @@ using UnityEngine.Events;
 
 public class Pellet : MonoBehaviour
 {
-    public UnityEvent onPickedUp;
+    [SerializeField]
+    private PelletTypes PelletType = PelletTypes.Ordinary;
+
+    [SerializeField]
+    private int PelletScore = 10;
+    
+    public UnityEvent<int, PelletTypes> OnPickedUp;
     private void OnTriggerEnter(Collider manpac)
     {
         if (manpac.gameObject.CompareTag("ManPac"))
         {
-            onPickedUp.Invoke();
+            OnPickedUp.Invoke(PelletScore, PelletType);
             Destroy(this.gameObject);
         }
     }
