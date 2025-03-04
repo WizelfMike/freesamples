@@ -1,34 +1,58 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class DeathHandler : MonoBehaviour
 {
 
-    private PlayerInput ThisPlayerInput;
-    private IntersectionTraverser PlayerTraverser;
-    private bool isActivePlayer = true;
+    [SerializeField] private Animator GhostAnimator;
+    [SerializeField] private Transform HomePosition;
+
+    private PlayerInput _thisPlayerInput;
+    private PlayerMovement _thisPlayerMovement;
+    private IntersectionTraverser _thisPlayerTraverser;
+    private bool _isActivePlayer = true;
 
     private void Start()
     {
-        ThisPlayerInput = GetComponent<PlayerInput>();
-        PlayerTraverser = GetComponent<IntersectionTraverser>();
+        _thisPlayerTraverser = GetComponent<IntersectionTraverser>();
+        _thisPlayerMovement = GetComponent<PlayerMovement>();
+        _thisPlayerInput = GetComponent<PlayerInput>();
 
-        if (isActivePlayer == true)
+        GhostAnimator = GetComponentInChildren<Animator>();
+
+        if (_isActivePlayer == true)
         {
-            ThisPlayerInput.enabled = true;
+            _thisPlayerInput.enabled = true;
+        }
+    }
+
+    private void Update() // will be removed once the true method of calling death is functional
+    {
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            CallDeath();
         }
     }
 
     private IEnumerator Death()
     {
-        ThisPlayerInput.enabled = false;
-        PlayerTraverser.CurrentVelocity = 0f;
+        _thisPlayerInput.enabled = false;
+        _thisPlayerTraverser.CurrentVelocity = 0f;
+        GhostAnimator.SetTrigger("Died");
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
 
-        ThisPlayerInput.enabled = true;
-        PlayerTraverser.CurrentVelocity = 1f;
+        this.gameObject.transform.position = HomePosition.transform.position;
+        _thisPlayerMovement.SetDirection();
+        GhostAnimator.SetTrigger("Revived");
+
+        yield return new WaitForSeconds(2);
+
+        _thisPlayerInput.enabled = true;
+        _thisPlayerTraverser.CurrentVelocity = 1f;
+        
     }
 
     public void CallDeath()
