@@ -1,15 +1,38 @@
 using UnityEngine;
 using UnityEngine.Events;
+using Random = UnityEngine.Random;
 
 public class Pellet : MonoBehaviour
 {
-    public UnityEvent onPickedUp;
+    [Header("Score settings")]
+    [SerializeField]
+    private PelletTypes PelletType = PelletTypes.Ordinary;
+    [SerializeField]
+    private int PelletScore = 10;
+
+    [Header("AnimationSettings")]
+    [SerializeField]
+    private Animator Animator;
+    
+    [Header("Events")]
+    public UnityEvent<int, PelletTypes> OnPickedUp;
+    
+    private void Start()
+    {
+        Invoke(nameof(EnableAnimator), Random.value);
+    }
+    
     private void OnTriggerEnter(Collider manpac)
     {
         if (manpac.gameObject.CompareTag("ManPac"))
         {
-            onPickedUp.Invoke();
+            OnPickedUp.Invoke(PelletScore, PelletType);
             Destroy(this.gameObject);
         }
+    }
+
+    private void EnableAnimator()
+    {
+        Animator.enabled = true;
     }
 }
