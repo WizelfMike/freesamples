@@ -75,7 +75,7 @@ public class IntersectionTraverser : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.TryGetComponent<IntersectionNode>(out var intersectionNode))
+        if (!other.TryGetComponent(out IntersectionNode intersectionNode))
             return;
 
         _interactingIntersections.Add(intersectionNode);
@@ -83,7 +83,7 @@ public class IntersectionTraverser : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent<IntersectionNode>(out var intersectionNode))
+        if (other.TryGetComponent(out IntersectionNode intersectionNode))
             _interactingIntersections.Remove(intersectionNode);
 
     }
