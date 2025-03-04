@@ -36,7 +36,6 @@ public class ManPacEnemy : MonoBehaviour
         _spawnpointUser.ToSpawnPoint();
         _traverser.SetBeginDirection(BeginDirection);
 
-        // The timer used to determine how long to stay in the aggressive state
         _aggressiveTimer = new DeltaTimer(AggressiveDuration)
         {
             OnTimerRanOut = OnAggressiveRanOut

@@ -9,12 +9,18 @@ public class Pellet : MonoBehaviour
     private PelletTypes PelletType = PelletTypes.Ordinary;
     [SerializeField]
     private int PelletScore = 10;
-    
-    public UnityEvent<int, PelletTypes> OnPickedUp;
 
     [Header("AnimationSettings")]
     [SerializeField]
     private Animator Animator;
+    
+    [Header("Events")]
+    public UnityEvent<int, PelletTypes> OnPickedUp;
+    
+    private void Start()
+    {
+        Invoke(nameof(EnableAnimator), Random.value);
+    }
     
     private void OnTriggerEnter(Collider manpac)
     {
@@ -23,11 +29,6 @@ public class Pellet : MonoBehaviour
             OnPickedUp.Invoke(PelletScore, PelletType);
             Destroy(this.gameObject);
         }
-    }
-
-    private void Start()
-    {
-        Invoke(nameof(EnableAnimator), Random.value);
     }
 
     private void EnableAnimator()
