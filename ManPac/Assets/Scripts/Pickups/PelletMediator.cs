@@ -8,7 +8,7 @@ public class PelletMediator : MonoBehaviour
     
     private int _pointAmount;
 
-    public void AddScore(int pelletScore, PelletTypes pelletType) // Function is public because it needs to be called from a Unity Event
+    public void PelletPickedUp(int pelletScore, PelletTypes pelletType) // Function is public because it needs to be called from a Unity Event
     {
         _pointAmount += pelletScore;
         OnPelletPickedUp.Invoke(pelletScore, pelletType);
