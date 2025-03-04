@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -16,7 +17,8 @@ public class IntersectionTraverser : MonoBehaviour
     private float _previousVelocity = 0f;
     private Vector3 _currentDirection = Vector3.zero;
     private Vector2 _preferredDirection = Vector3.zero;
-    private IntersectionNode _targetIntersection;
+
+    private List<IntersectionNode> _interactingIntersections = new();
 
     public float CurrentVelocity
     {
@@ -58,7 +60,7 @@ public class IntersectionTraverser : MonoBehaviour
 
     public Vector2 TurnAround()
     {
-        if (_targetIntersection is not null)
+        if (_interactingIntersections.Count > 0)
             return _currentDirection;
         
         _currentDirection = -_currentDirection;
@@ -73,49 +75,56 @@ public class IntersectionTraverser : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.TryGetComponent<IntersectionNode>(out var intersectionNode))
+        if (!other.TryGetComponent(out IntersectionNode intersectionNode))
             return;
 
-        _targetIntersection = intersectionNode;
+        _interactingIntersections.Add(intersectionNode);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent<IntersectionNode>(out _))
-            _targetIntersection = null;
+        if (other.TryGetComponent(out IntersectionNode intersectionNode))
+            _interactingIntersections.Remove(intersectionNode);
+
     }
 
     private bool CheckIntersectionProximity()
     {
-        if (_targetIntersection == null)
+        if (_interactingIntersections.Count <= 0)
             return false;
 
-        Vector3 intersectionPosition = _targetIntersection.transform.position;
-        return Vector3.Distance(transform.position, intersectionPosition) < MinimalIntersectionProximity;
+        Vector3 ownPosition = transform.position;
+
+        IntersectionNode closestIntersection = DistanceHelper.FindClosestGameObject(ownPosition, _interactingIntersections);
+        return Vector3.Distance(ownPosition, closestIntersection.transform.position) < MinimalIntersectionProximity;
     }
 
     private bool InteractWithIntersection()
     {
         if (_preferredDirection == Vector2.zero)
             _preferredDirection = new Vector2(_currentDirection.x, _currentDirection.z);
+
+        Vector3 ownPosition = transform.position;
+        IntersectionNode closestIntersection =
+            DistanceHelper.FindClosestGameObject(ownPosition, _interactingIntersections);
         
-        Vector3 intersectionPosition = _targetIntersection.transform.position;
-        (Vector3 newDirection, float correspondence)= _targetIntersection.GetDirection(_preferredDirection);
+        Vector3 intersectionPosition = closestIntersection.transform.position;
+        (Vector3 newDirection, float correspondence)= closestIntersection.GetDirection(_preferredDirection);
         
-        if (Vector3.Dot(_currentDirection, newDirection) <= 0.99f)
+        if (Vector3.Dot(_currentDirection, newDirection) < 1f)
             transform.position = intersectionPosition;
         
-        if (correspondence <= 0.01f)
+        if (correspondence <= 0f)
         {
             _currentDirection = Vector2.zero;
-            OnIntersectionInteraction.Invoke(_targetIntersection);
+            OnIntersectionInteraction.Invoke(closestIntersection);
             return true;
         }
         
         _currentDirection = newDirection.normalized;
 
         _preferredDirection = Vector2.zero;
-        OnIntersectionInteraction.Invoke(_targetIntersection);
+        OnIntersectionInteraction.Invoke(closestIntersection);
         return true;
     }
 }
