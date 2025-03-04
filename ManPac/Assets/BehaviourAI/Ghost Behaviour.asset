@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Ghost Behaviour
   m_EditorClassIdentifier: 
   Graphs:
-  - rid: 4442717568483983975
+  - rid: 4442717572638965825
   RootGraph:
-    rid: 4442717568483983975
+    rid: 4442717572638965825
   m_DebugInfo: {fileID: 6819347263526973535}
   references:
     version: 2
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 4442717568483983975
+    - rid: 4442717572638965825
       type: {class: BehaviorGraphModule, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         AuthoringAssetID:
@@ -30,66 +30,65 @@ MonoBehaviour:
           m_Value1: 11420292714112615785
         m_DebugInfo: {fileID: 0}
         Root:
-          rid: 4442717568483983976
+          rid: 4442717572638965826
         BlackboardReference:
-          rid: 4442717568483983977
+          rid: 4442717572638965827
         BlackboardGroupReferences: []
         ProcessedNodes: []
         m_RunningNodes: []
         m_NodesToEnd:
-          rid: 4442717568483983978
+          rid: 4442717572638965828
         m_EndedNodes:
-          rid: 4442717568483983979
-        m_VersionTimestamp: 638766891980203782
-    - rid: 4442717568483983976
+          rid: 4442717572638965829
+        m_VersionTimestamp: 638766946384964764
+    - rid: 4442717572638965826
       type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
           m_Value0: 18062709089479292064
           m_Value1: 6489682028791901220
         Graph:
-          rid: 4442717568483983975
+          rid: 4442717572638965825
         m_Parent:
           rid: -2
         m_Child:
-          rid: 4442717568483983980
+          rid: 4442717572638965830
         Repeat: 1
-    - rid: 4442717568483983977
+    - rid: 4442717572638965827
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         m_Blackboard:
-          rid: 4442717568483983981
+          rid: 4442717572638965831
         m_Source: {fileID: -2721131823287736419}
-    - rid: 4442717568483983978
+    - rid: 4442717572638965828
       type: {class: 'Stack`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: mscorlib}
       data: 
-    - rid: 4442717568483983979
+    - rid: 4442717572638965829
       type: {class: 'HashSet`1[[Unity.Behavior.Node, Unity.Behavior]]', ns: System.Collections.Generic, asm: System.Core}
       data: 
-    - rid: 4442717568483983980
+    - rid: 4442717572638965830
       type: {class: LocateEnemyAction, ns: , asm: Assembly-CSharp}
       data:
         ID:
           m_Value0: 12200546398156009105
           m_Value1: 7011591121702921088
         Graph:
-          rid: 4442717568483983975
+          rid: 4442717572638965825
         m_Parent:
-          rid: 4442717568483983976
+          rid: 4442717572638965826
         Enemy:
-          rid: 4442717568483983982
+          rid: 4442717572638965832
         Player:
-          rid: 4442717568483983983
-    - rid: 4442717568483983981
+          rid: 4442717572638965833
+    - rid: 4442717572638965831
       type: {class: Blackboard, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         m_Variables:
-        - rid: 4442717568483983984
-        - rid: 4442717568483983985
-        - rid: 4442717568483983986
-        - rid: 4442717568483983987
-        - rid: 4442717568483983988
-    - rid: 4442717568483983982
+        - rid: 4442717572638965834
+        - rid: 4442717572638965835
+        - rid: 4442717572638965836
+        - rid: 4442717572638965837
+    - rid: 4442717572638965832
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -97,7 +96,7 @@ MonoBehaviour:
           m_Value1: 0
         Name: 
         m_Value: {fileID: 0}
-    - rid: 4442717568483983983
+    - rid: 4442717572638965833
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -105,7 +104,7 @@ MonoBehaviour:
           m_Value1: 0
         Name: 
         m_Value: {fileID: 0}
-    - rid: 4442717568483983984
+    - rid: 4442717572638965834
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -113,7 +112,7 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 0}
-    - rid: 4442717568483983985
+    - rid: 4442717572638965835
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -121,7 +120,7 @@ MonoBehaviour:
           m_Value1: 7443352112348631982
         Name: Man-Pac
         m_Value: {fileID: 0}
-    - rid: 4442717568483983986
+    - rid: 4442717572638965836
       type: {class: 'BlackboardVariable`1[[UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -129,7 +128,7 @@ MonoBehaviour:
           m_Value1: 7300886884216565653
         Name: PlayerInput
         m_Value: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    - rid: 4442717568483983987
+    - rid: 4442717572638965837
       type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         GUID:
@@ -138,14 +137,6 @@ MonoBehaviour:
         Name: waypoints
         m_Value:
         - {fileID: 0}
-    - rid: 4442717568483983988
-      type: {class: 'BlackboardVariable`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 16658808372010458274
-          m_Value1: 8629122832816702948
-        Name: Nav Mesh Agent
-        m_Value: {fileID: 0}
 --- !u!114 &-2721131823287736419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c02bb70996b49eba31d0c206e28da24, type: 3}
   m_Name: Ghost Behaviour Blackboard
   m_EditorClassIdentifier: 
-  VersionTimestamp: 638766891980203782
+  VersionTimestamp: 638766946384974769
   AssetID:
     m_Value0: 7211326435214996965
     m_Value1: 11420292714112615785
@@ -168,7 +159,6 @@ MonoBehaviour:
     - rid: 4442717550569586734
     - rid: 4442717550569586901
     - rid: 4442717568483983519
-    - rid: 4442717568483983816
   m_SharedBlackboardVariableGuids: []
   references:
     version: 2
@@ -206,14 +196,6 @@ MonoBehaviour:
         Name: waypoints
         m_Value:
         - {fileID: 0}
-    - rid: 4442717568483983816
-      type: {class: 'BlackboardVariable`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 16658808372010458274
-          m_Value1: 8629122832816702948
-        Name: Nav Mesh Agent
-        m_Value: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +215,7 @@ MonoBehaviour:
   - rid: 4442717568483983579
   - rid: 4442717568483983932
   - rid: 4442717568483983952
-  m_VersionTimestamp: 638766891980203782
+  m_VersionTimestamp: 638766946384964764
   m_DebugInfo: {fileID: 6819347263526973535}
   m_RuntimeGraph: {fileID: -4512876296478221723}
   AssetID:
@@ -792,8 +774,7 @@ MonoBehaviour:
   - rid: 4442717550569586723
   - rid: 4442717550569586891
   - rid: 4442717568483983502
-  - rid: 4442717568483983799
-  m_VersionTimestamp: 638766891980203782
+  m_VersionTimestamp: 638766946384974769
   m_CommandBuffer:
     m_Commands: []
   m_RuntimeBlackboardAsset: {fileID: -2721131823287736419}
@@ -841,16 +822,6 @@ MonoBehaviour:
         m_IsShared: 0
         m_Value:
         - {fileID: 0}
-    - rid: 4442717568483983799
-      type: {class: 'TypedVariableModel`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior.GraphFramework, asm: Unity.Behavior.GraphFramework}
-      data:
-        ID:
-          m_Value0: 16658808372010458274
-          m_Value1: 8629122832816702948
-        Name: Nav Mesh Agent
-        IsExposed: 1
-        m_IsShared: 0
-        m_Value: {fileID: 0}
 --- !u!114 &6819347263526973535
 MonoBehaviour:
   m_ObjectHideFlags: 0
