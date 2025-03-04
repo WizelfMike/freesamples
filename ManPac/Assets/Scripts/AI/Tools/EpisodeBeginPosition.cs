@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class EpisodeBeginPosition : EpisodeListener
 {
-    private Transform _startTransform;
+    private Vector3 _startPosition;
+    private Quaternion _startRotation;
     
-    public override void Start()
+    public void Awake()
     {
-        _startTransform = transform;
-        
-        base.Start();
+        _startPosition = transform.position;
+        _startRotation = transform.rotation;
     }
 
     public override void OnEpisodeStarted()
     {
-        transform.position = _startTransform.position;
-        transform.rotation = _startTransform.rotation;
+        transform.position = _startPosition;
+        transform.rotation = _startRotation;
     }
 }
