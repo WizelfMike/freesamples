@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -29,11 +30,27 @@ public static class DistanceHelper
         return otherPositions[index];
     }
 
-    public static T FindClosestGameObject<T>(Vector3 position, T[] others)
+    public static T FindClosestGameObject<T>(Vector3 position, ReadOnlySpan<T> others)
         where T : Component
     {
-        Vector3[] positionArray = others.Select(x => x.transform.position).ToArray();
-        int index = FindClosestOnIndex(position, positionArray);
+        int othersLength = others.Length;
+        Vector3[] positions = new Vector3[othersLength];
+        for (int i = 0; i < othersLength; i++)
+            positions[i] = others[i].transform.position;
+        
+        int index = FindClosestOnIndex(position, positions);
         return others[index];
+    }
+
+    public static T FindClosestGameObject<T>(Vector3 position, IReadOnlyList<T> others)
+        where T : Component
+    {
+         int othersLength = others.Count;
+         Vector3[] positions = new Vector3[othersLength];
+         for (int i = 0; i < othersLength; i++)
+             positions[i] = others[i].transform.position;
+         
+         int index = FindClosestOnIndex(position, positions);
+         return others[index];       
     }
 }
