@@ -28008,6 +28008,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 63065562615476942, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: PlayerTraversers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 63065562615476942, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: 'PlayerTraversers.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1823624492}
+    - target: {fileID: 63065562615476942, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: 'playerTraversers.Array.data[0]'
       value: 
       objectReference: {fileID: 1823624492}
