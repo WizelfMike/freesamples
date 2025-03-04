@@ -36,6 +36,10 @@ public class DeathHandler : MonoBehaviour
         }
     }
 
+    public void CallDeath()
+    {
+        StartCoroutine(Death());
+    }
     private IEnumerator Death()
     {
         _thisPlayerInput.enabled = false;
@@ -53,10 +57,5 @@ public class DeathHandler : MonoBehaviour
         _thisPlayerInput.enabled = true;
         _thisPlayerTraverser.CurrentVelocity = 1f;
         
-    }
-
-    public void CallDeath()
-    {
-        StartCoroutine(Death());
     }
 }
