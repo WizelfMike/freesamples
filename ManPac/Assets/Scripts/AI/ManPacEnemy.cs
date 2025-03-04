@@ -1,7 +1,9 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(ManPacAgent))]
 [RequireComponent(typeof(SpawnpointUser))]
 [RequireComponent(typeof(IntersectionTraverser))]
 public class ManPacEnemy : MonoBehaviour
@@ -18,6 +20,7 @@ public class ManPacEnemy : MonoBehaviour
     [SerializeField]
     private UnityEvent<ManPacStates> OnBehaviourStateChanged;
 
+    private ManPacAgent _agent;
     private IntersectionTraverser _traverser;
     private SpawnpointUser _spawnpointUser;
     private ManPacStates _currentState = ManPacStates.Avoidant;
@@ -28,18 +31,22 @@ public class ManPacEnemy : MonoBehaviour
         BeginDirection.Normalize();
     }
 
-    private void Start()
+    private void Awake()
     {
+        _agent = GetComponent<ManPacAgent>();
         _traverser = GetComponent<IntersectionTraverser>();
         _spawnpointUser = GetComponent<SpawnpointUser>();
         
-        _spawnpointUser.ToSpawnPoint();
-        _traverser.SetBeginDirection(BeginDirection);
-
         _aggressiveTimer = new DeltaTimer(AggressiveDuration)
         {
             OnTimerRanOut = OnAggressiveRanOut
         };
+    }
+
+    private void Start()
+    {
+        _spawnpointUser.ToSpawnPoint();
+        _traverser.SetBeginDirection(BeginDirection);
     }
 
     private void Update()
@@ -51,7 +58,14 @@ public class ManPacEnemy : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-            OnGotHitByPlayer.Invoke(other.gameObject);
+            GotHitByPlayer(other);
+    }
+
+    private void GotHitByPlayer(Collider playerCollider)
+    {
+        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
+        _agent.AddReward(-1000f);
+        _agent.EndEpisode();
     }
 
     public void OnAgentEpisodeBegan()
@@ -62,6 +76,8 @@ public class ManPacEnemy : MonoBehaviour
 
     public void OnPelletPickedUp(int scoreAddition, PelletTypes pelletType)
     {
+        _agent.AddReward(scoreAddition);
+        
         // only change to aggressive state when power-pellet was picked up
         if (pelletType != PelletTypes.Power)
             return;

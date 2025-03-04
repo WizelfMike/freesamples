@@ -29595,6 +29595,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8453244949324958768, guid: 5b780903e70eaef46910dc9a7672ed16, type: 3}
   m_PrefabInstance: {fileID: 1822875669}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1823624492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+  m_PrefabInstance: {fileID: 1661549167766675222}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661549167766675223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabfe0e108284e9683e90fc8e05ff550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1826474923
 GameObject:
   m_ObjectHideFlags: 0
@@ -34830,6 +34841,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1721839395837572390, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
+      propertyPath: PlayerTraversers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721839395837572390, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
+      propertyPath: 'PlayerTraversers.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1823624492}
+    - target: {fileID: 1721839395837572390, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
       propertyPath: OnEpisodeBegins.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -34857,6 +34876,10 @@ PrefabInstance:
       propertyPath: OnEpisodeBegins.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4197521496611837352, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 903714040}
     - target: {fileID: 8028554393605100458, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
       propertyPath: m_Name
       value: ManPac-Trainable
