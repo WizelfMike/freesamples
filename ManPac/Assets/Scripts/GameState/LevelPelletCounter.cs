@@ -13,7 +13,7 @@ public class LevelPelletCounter : MonoBehaviour
         _levelPelletCount = FindObjectsByType<Pellet>(FindObjectsSortMode.None).Length;
     }
 
-    public void ListenToPelletPickup(int pointAmount)
+    public void ListenToPelletPickup(int pointAmount, PelletTypes pelletType)
     {
         _levelPelletCount = Mathf.Max(_levelPelletCount - 1, 0);
         if (_levelPelletCount <= 0)
