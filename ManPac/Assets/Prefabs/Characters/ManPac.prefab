@@ -105,11 +105,11 @@ MonoBehaviour:
     VectorObservationSize: 9
     NumStackedVectorObservations: 2
     m_ActionSpec:
-      m_NumContinuousActions: 0
-      BranchSizes: 04000000
-    VectorActionSize: 04000000
+      m_NumContinuousActions: 2
+      BranchSizes: 
+    VectorActionSize: 02000000
     VectorActionDescriptions: []
-    VectorActionSpaceType: 0
+    VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: f9ddc958795deb44a91796c8ce2dad50, type: 3}
   m_InferenceDevice: 0
@@ -151,8 +151,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  playerTraversers:
-  - {fileID: 0}
+  PlayerTraversers: []
 --- !u!114 &3291930524877994637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +210,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BeginDirection: {x: 0, y: 1}
+  AggressiveDuration: 10
   OnGotHitByPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBehaviourStateChanged:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &3262199917601870400

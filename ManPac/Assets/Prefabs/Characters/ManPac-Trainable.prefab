@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 63065562615476942, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: MaxStep
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 2130288992076112360, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -56,9 +60,29 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSpaceType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSize.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: 'm_BrainParameters.VectorActionSize.Array.data[0]'
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8677901751381218370, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: m_Name
-      value: Trainable
+      value: ManPac-Trainable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
