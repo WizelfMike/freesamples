@@ -60,7 +60,9 @@ public class CharacterSwitcher : MonoBehaviour
         if (_currentPlayerActiveCharacter.Type == type)
             return _currentPlayerActiveCharacter;
         
-        PlayerCharacter next = PlayerCharacters.First(x => x.Type == type);
+        PlayerCharacter next = PlayerCharacters.FirstOrDefault(x => x.Type == type);
+        if (next == null)
+            return _currentPlayerActiveCharacter;
         
         if (!next.PlayerActivate())
             return _currentPlayerActiveCharacter;
