@@ -25,10 +25,7 @@ public class CharacterSwitcher : MonoBehaviour
 
     public void InputSwitchNextPlayer(InputAction.CallbackContext context)
     {
-        if (context.phase != InputActionPhase.Performed)
-            return;
-        
-        if (_currentActivePlayerIndex == -1)
+        if (context.phase != InputActionPhase.Performed || _currentActivePlayerIndex == -1)
             return;
 
         int nextIndex = (_currentActivePlayerIndex + 1) % PlayerCharacters.Length;
