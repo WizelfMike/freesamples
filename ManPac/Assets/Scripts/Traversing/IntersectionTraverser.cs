@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,6 +11,13 @@ public class IntersectionTraverser : MonoBehaviour
     [SerializeField]
     [Range(0.01f, 5f)]
     private float MinimalIntersectionProximity = 0.1f;
+    [SerializeField]
+    [Range(-1f, 1f)]
+    private float MinimalRequiredCorrespondence = 0f;
+    [SerializeField]
+    [Range(-1f, 1f)]
+    private float DoubleCheckThreshold = 0.7071f;
+    
 
     [SerializeField]
     public UnityEvent<IntersectionNode> OnIntersectionInteraction;
@@ -31,6 +39,11 @@ public class IntersectionTraverser : MonoBehaviour
     }
     public Vector3 VelocityVector => _currentDirection * Velocity;
 
+    private void OnValidate()
+    {
+        DoubleCheckThreshold = Mathf.Max(DoubleCheckThreshold, MinimalRequiredCorrespondence + 0.01f);
+    }
+
     private void FixedUpdate()
     {
         if (CheckIntersectionProximity())
@@ -42,7 +55,7 @@ public class IntersectionTraverser : MonoBehaviour
     public void SetBeginDirection(Vector2 direction)
     {
         direction.Normalize();
-        _currentDirection = new Vector3(direction.x, 0, direction.y);
+        _currentDirection = direction.ToVector3Z();
     }
 
     public Vector2 GivePreferredDirection(Vector2 newPreferred)
@@ -50,7 +63,7 @@ public class IntersectionTraverser : MonoBehaviour
         newPreferred.Normalize();
         
         // Turn around when the given input is the opposite of the current direction
-        Vector2 twoDCurrentDirection = new Vector2(_currentDirection.x, _currentDirection.z);
+        Vector2 twoDCurrentDirection = _currentDirection.ToVector2Z(); 
         if (Vector2.Dot(newPreferred, twoDCurrentDirection) <= -0.99f)
             TurnAround();
             
@@ -102,28 +115,32 @@ public class IntersectionTraverser : MonoBehaviour
     private bool InteractWithIntersection()
     {
         if (_preferredDirection == Vector2.zero)
-            _preferredDirection = new Vector2(_currentDirection.x, _currentDirection.z);
+            _preferredDirection = _currentDirection.ToVector2Z();
 
         Vector3 ownPosition = transform.position;
         IntersectionNode closestIntersection =
             DistanceHelper.FindClosestGameObject(ownPosition, _interactingIntersections);
         
         Vector3 intersectionPosition = closestIntersection.transform.position;
-        (Vector3 newDirection, float correspondence)= closestIntersection.GetDirection(_preferredDirection);
+        (Vector3 newDirection, float correspondence) = closestIntersection.GetDirection(_preferredDirection);
+
+        if (correspondence <= DoubleCheckThreshold)
+            (newDirection, correspondence) = closestIntersection.GetDirection(_currentDirection.ToVector2Z());
         
         if (Vector3.Dot(_currentDirection, newDirection) < 1f)
             transform.position = intersectionPosition;
         
-        if (correspondence <= 0f)
+        if (correspondence <= MinimalRequiredCorrespondence)
         {
             _currentDirection = Vector2.zero;
             OnIntersectionInteraction.Invoke(closestIntersection);
             return true;
         }
         
+        if (Vector3.Dot(_currentDirection, newDirection) < 0.99f)
+            _preferredDirection = Vector2.zero;
+        
         _currentDirection = newDirection.normalized;
-
-        _preferredDirection = Vector2.zero;
         OnIntersectionInteraction.Invoke(closestIntersection);
         return true;
     }
