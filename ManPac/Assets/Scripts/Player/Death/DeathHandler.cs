@@ -12,7 +12,7 @@ public class DeathHandler : MonoBehaviour
     private PlayerInput _thisPlayerInput;
     private PlayerMovement _thisPlayerMovement;
     private IntersectionTraverser _thisPlayerTraverser;
-    private bool _isActivePlayer = true;
+    //private bool _isActivePlayer = true;
     private bool _isInDanger;
     private bool _canDie;
 
@@ -26,23 +26,17 @@ public class DeathHandler : MonoBehaviour
         _thisPlayerTraverser = GetComponent<IntersectionTraverser>();
         _thisPlayerMovement = GetComponent<PlayerMovement>();
         _thisPlayerInput = GetComponent<PlayerInput>();
-
-        GhostAnimator = GetComponentInChildren<Animator>();
-
-        if (_isActivePlayer == true)
-        {
-            _thisPlayerInput.enabled = true;
-        }
+        
+        _thisPlayerInput.enabled = true;
+        
     }
 
     public void CallDeath()
     {
-        if (_canDie == true)
-        {
-            Debug.Log("Death Happened");
-            StartCoroutine(Death());
+        if (!CanDie)
             return;
-        }
+
+        StartCoroutine(Death());
     }
     private IEnumerator Death()
     {

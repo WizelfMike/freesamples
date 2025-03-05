@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+
+[RequireComponent(typeof(DeathHandler))]
 public class GhostStateHandler : MonoBehaviour
 {
     private DeathHandler thisDeathHandler;
