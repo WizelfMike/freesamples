@@ -69,10 +69,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
-      propertyPath: m_BrainParameters.NumStackedVectorObservations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: 'm_BrainParameters.VectorActionSize.Array.data[0]'
       value: 2
       objectReference: {fileID: 0}

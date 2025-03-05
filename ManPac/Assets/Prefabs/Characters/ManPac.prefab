@@ -103,7 +103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 17
-    NumStackedVectorObservations: 2
+    NumStackedVectorObservations: 4
     m_ActionSpec:
       m_NumContinuousActions: 2
       BranchSizes: 
@@ -166,6 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocity: 1
   MinimalIntersectionProximity: 0.05
+  MinimalRequiredCorrespondence: 0
+  DoubleCheckThreshold: 0.7071
   OnIntersectionInteraction:
     m_PersistentCalls:
       m_Calls: []
