@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -15,64 +14,59 @@ public class CharacterSwitcher : MonoBehaviour
     [Header("Events")]
     public UnityEvent<PlayerCharacter> OnCharacterActivated;
 
-    private PlayerCharacter _currentPlayerActiveCharacter = null;
-    private int _characterTypeCount = 0;
+    private int _currentActivePlayerIndex = -1;
+    
+    public PlayerCharacter CurrentActivePlayer => PlayerCharacters[_currentActivePlayerIndex];
 
     private void Start()
     {
-        _characterTypeCount = Enum.GetValues(typeof(PlayerCharacterTypes)).Length;
         PrepareAllCharacters(StartCharacter);
     }
 
     public void InputSwitchNextPlayer(InputAction.CallbackContext context)
     {
-        if (_currentPlayerActiveCharacter == null)
+        if (context.phase != InputActionPhase.Performed)
+            return;
+        
+        if (_currentActivePlayerIndex == -1)
             return;
 
-        int typeIndex = (int) _currentPlayerActiveCharacter.Type;
-        int nextIndex = (typeIndex + 1) % _characterTypeCount;
-        
-        PrepareNextCharacter((PlayerCharacterTypes) nextIndex);
+        int nextIndex = (_currentActivePlayerIndex + 1) % PlayerCharacters.Length;
+        PrepareNextCharacter(PlayerCharacters[nextIndex]);
     }
 
     private PlayerCharacter PrepareAllCharacters(PlayerCharacterTypes type)
     {
         int characterCount = PlayerCharacters.Length;
-        PlayerCharacter activated = default;
+        int activated = default;
         for (int i = 0; i < characterCount; i++)
         {
             PlayerCharacter playerCharacter = PlayerCharacters[i];
             if (playerCharacter.Type == type)
             {
                 playerCharacter.PlayerActivate();
-                activated = playerCharacter;
+                activated = i;
                 continue;
             }
 
             playerCharacter.PlayerDeactivate();
         }
 
-        _currentPlayerActiveCharacter = activated;
-        OnCharacterActivated.Invoke(activated);
-        return activated;
+        _currentActivePlayerIndex = activated;
+        OnCharacterActivated.Invoke(PlayerCharacters[activated]);
+        return PlayerCharacters[activated];
     }
 
-    private PlayerCharacter PrepareNextCharacter(PlayerCharacterTypes type)
+    private PlayerCharacter PrepareNextCharacter(PlayerCharacter next)
     {
-        if (_currentPlayerActiveCharacter.Type == type)
-            return _currentPlayerActiveCharacter;
+        if (next == CurrentActivePlayer)
+            return CurrentActivePlayer;
         
-        PlayerCharacter next = PlayerCharacters.FirstOrDefault(x => x.Type == type);
-        if (next == null)
-            return _currentPlayerActiveCharacter;
-        
-        
-        _currentPlayerActiveCharacter.PlayerDeactivate();
-        _currentPlayerActiveCharacter = next;
+        CurrentActivePlayer.PlayerDeactivate();
+        _currentActivePlayerIndex = Array.IndexOf(PlayerCharacters, next);
         next.PlayerActivate();
         
-        OnCharacterActivated.Invoke(_currentPlayerActiveCharacter);
-        
-        return _currentPlayerActiveCharacter;
+        OnCharacterActivated.Invoke(CurrentActivePlayer);
+        return CurrentActivePlayer;
     }
 }
