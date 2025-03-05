@@ -64,7 +64,7 @@ public class ManPacEnemy : MonoBehaviour
     private void GotHitByPlayer(Collider playerCollider)
     {
         OnGotHitByPlayer.Invoke(playerCollider.gameObject);
-        _agent.AddReward(-1000f);
+        _agent.AddReward(-5000f);
         _agent.EndEpisode();
     }
 
