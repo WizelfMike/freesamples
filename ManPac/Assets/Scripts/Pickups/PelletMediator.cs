@@ -12,6 +12,6 @@ public class PelletMediator : MonoBehaviour
     {
         _pointAmount += pelletScore;
         OnPelletPickedUp.Invoke(pelletScore, pelletType);
-        //Debug.Log(_pointAmount);
+        Debug.Log(_pointAmount);
     }
 }
