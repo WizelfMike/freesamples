@@ -11,6 +11,8 @@ public class CharacterSwitcher : MonoBehaviour
     private PlayerCharacterTypes StartCharacter = PlayerCharacterTypes.Pinky;
     [SerializeField]
     private PlayerCharacter[] PlayerCharacters;
+    
+    [Header("Events")]
     public UnityEvent<PlayerCharacter> OnCharacterActivated;
 
     private PlayerCharacter _currentPlayerActiveCharacter = null;
@@ -64,11 +66,10 @@ public class CharacterSwitcher : MonoBehaviour
         if (next == null)
             return _currentPlayerActiveCharacter;
         
-        if (!next.PlayerActivate())
-            return _currentPlayerActiveCharacter;
         
         _currentPlayerActiveCharacter.PlayerDeactivate();
         _currentPlayerActiveCharacter = next;
+        next.PlayerActivate();
         
         OnCharacterActivated.Invoke(_currentPlayerActiveCharacter);
         

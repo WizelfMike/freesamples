@@ -14,7 +14,7 @@ public class PlayerCharacter : MonoBehaviour
 
     public PlayerCharacterTypes Type => CharacterType;
 
-    private bool _isPlayerControlled = false;
+    private bool _isPlayerControlled = true;
     private PlayerInput _playerInput;
 
     private void Awake()
@@ -22,12 +22,9 @@ public class PlayerCharacter : MonoBehaviour
         _playerInput = GetComponent<PlayerInput>();
     }
 
-    public bool PlayerDeactivate()
+    public void PlayerDeactivate()
     {
-        if (!_isPlayerControlled)
-            return false;
-        
-        _playerInput.DeactivateInput();
+        _playerInput.enabled = false;
         _isPlayerControlled = false;
         
         // TODO! Placeholder code is here for now,
@@ -35,21 +32,16 @@ public class PlayerCharacter : MonoBehaviour
         
         Debug.Log($"Player character `{gameObject.name}` got deactivated, AI is going to take over control");
         OnActivationChange.Invoke(_isPlayerControlled);
-        return true;
     }
 
-    public bool PlayerActivate()
+    public void PlayerActivate()
     {
-        if (_isPlayerControlled)
-            return false;
-        
-        _playerInput.ActivateInput();
+        _playerInput.enabled = true;
         _isPlayerControlled = true;
         
         // TODO! Placeholder code is here for now,
         // Fill up with code to deactivate the Behaviour-AI so the player can take back control.
         Debug.Log($"Player character `{gameObject.name}` got activated, the player is granted back control");
         OnActivationChange.Invoke(_isPlayerControlled);
-        return true;
     }
 }
