@@ -56,8 +56,6 @@ public class ManPacAgent : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // int inputOption = actions.DiscreteActions[0];
-        // Vector2 option = _inputMapping[inputOption];
         float moveX = actions.ContinuousActions[0];
         float moveY = actions.ContinuousActions[1];
         var option = new Vector2(moveX, moveY);
