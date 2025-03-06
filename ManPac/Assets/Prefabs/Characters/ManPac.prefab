@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   DecisionStep: 0
-  TakeActionsBetweenDecisions: 1
+  TakeActionsBetweenDecisions: 0
 --- !u!114 &3276200922999712272
 MonoBehaviour:
   m_ObjectHideFlags: 0

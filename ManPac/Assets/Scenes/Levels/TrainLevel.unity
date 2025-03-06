@@ -6564,6 +6564,10 @@ PrefabInstance:
       value: PowerPellet (3)
       objectReference: {fileID: 0}
     - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: PelletScore
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -18439,6 +18443,10 @@ PrefabInstance:
       value: PowerPellet (5)
       objectReference: {fileID: 0}
     - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: PelletScore
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -23824,6 +23832,10 @@ PrefabInstance:
       value: PowerPellet (4)
       objectReference: {fileID: 0}
     - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: PelletScore
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -27487,6 +27499,10 @@ PrefabInstance:
       value: PowerPellet (2)
       objectReference: {fileID: 0}
     - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: PelletScore
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -30919,6 +30935,10 @@ PrefabInstance:
     - target: {fileID: 52384572863003485, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
       propertyPath: m_Name
       value: PowerPellet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: PelletScore
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 883189527796417745, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
       propertyPath: OnPickedUp.m_PersistentCalls.m_Calls.Array.size
@@ -35197,18 +35217,6 @@ PrefabInstance:
     - target: {fileID: 7939000481559431775, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
       propertyPath: OnBehaviourStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8004515041471607590, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
-      propertyPath: DecisionStep
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8004515041471607590, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
-      propertyPath: DecisionPeriod
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8004515041471607590, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
-      propertyPath: TakeActionsBetweenDecisions
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8028554393605100458, guid: 1a3cd325a1b4e2447895118d15273df9, type: 3}
       propertyPath: m_Name
