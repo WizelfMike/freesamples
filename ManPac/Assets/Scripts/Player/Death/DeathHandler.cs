@@ -40,6 +40,12 @@ public class DeathHandler : MonoBehaviour
         StartCoroutine(Death());
     }
 
+    public void ChangeGhostMovementSpeed(float slowSpeed)
+    {
+        _thisPlayerTraverser.CurrentVelocity = _isInDanger?
+            slowSpeed : 1f;
+    }
+
     private IEnumerator Death()
     {
         _canDie = false;
