@@ -13,10 +13,10 @@ public class CharacterSwitcher : MonoBehaviour
     
     [Header("Events")]
     public UnityEvent<PlayerCharacter> OnCharacterActivated;
-
-    private int _currentActivePlayerIndex = -1;
     
     public PlayerCharacter CurrentActivePlayer => PlayerCharacters[_currentActivePlayerIndex];
+
+    private int _currentActivePlayerIndex = -1;
 
     private void Start()
     {
