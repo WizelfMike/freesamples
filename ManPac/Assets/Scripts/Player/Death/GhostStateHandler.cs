@@ -14,14 +14,6 @@ public class GhostStateHandler : MonoBehaviour
 
     public void ChangeState(ManPacStates currentState)
     {
-        if (currentState == ManPacStates.Aggressive)
-        {
-            _thisDeathHandler.IsInDanger = true;
-        }
-
-        if (currentState == ManPacStates.Avoidant)
-        {
-            _thisDeathHandler.IsInDanger = false;
-        }
+        _thisDeathHandler.IsInDanger = currentState == ManPacStates.Aggressive;
     }
 }
