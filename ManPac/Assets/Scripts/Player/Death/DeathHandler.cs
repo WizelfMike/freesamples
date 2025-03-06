@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class DeathHandler : MonoBehaviour
 {
-
     [SerializeField] 
     private Animator GhostAnimator;
     [SerializeField] 
