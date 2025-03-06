@@ -34809,12 +34809,8 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
-      propertyPath: Velocity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
-      propertyPath: MinimalIntersectionProximity
-      value: 0.1
+      propertyPath: DoubleCheckThreshold
+      value: 0.7071
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34920,6 +34916,10 @@ PrefabInstance:
       propertyPath: SpawnPoint
       value: 
       objectReference: {fileID: 903714040}
+    - target: {fileID: 3291930524877994637, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
+      propertyPath: DoubleCheckThreshold
+      value: 0.7071
+      objectReference: {fileID: 0}
     - target: {fileID: 8677901751381218370, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: m_Name
       value: ManPac
