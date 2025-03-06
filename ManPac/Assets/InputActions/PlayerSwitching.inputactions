@@ -1,0 +1,34 @@
+{
+    "name": "PlayerSwitching",
+    "maps": [
+        {
+            "name": "Switching",
+            "id": "384e523b-28cb-4e76-af16-25fd1600388f",
+            "actions": [
+                {
+                    "name": "SwitchNext",
+                    "type": "Button",
+                    "id": "bb083968-7e06-423e-9657-f573b68a4851",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4ff640e7-905d-42d0-8079-73a9f5ba8555",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

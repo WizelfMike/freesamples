@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         _intersectionTraverser = GetComponent<IntersectionTraverser>();
-        _intersectionTraverser.SetBeginDirection(BeginDirection);
+        SetDirection();
     }
 
     public void OnMovement(InputAction.CallbackContext context)
@@ -25,5 +25,10 @@ public class PlayerMovement : MonoBehaviour
         Vector2 preferredDirection = context.ReadValue<Vector2>();
         _intersectionTraverser.GivePreferredDirection(preferredDirection);
 
+    }
+
+    public void SetDirection()
+    {
+        _intersectionTraverser.SetBeginDirection(BeginDirection);
     }
 }

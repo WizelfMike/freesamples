@@ -57,8 +57,20 @@ public class ManPacEnemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && _currentState == ManPacStates.Aggressive)
+        {
+            HitsPlayer(other);
+        }
+
+        if (other.CompareTag("Player") && _currentState == ManPacStates.Avoidant && other.GetComponent<DeathHandler>().CanDie == true)
+        {
             GotHitByPlayer(other);
+        }
+    }
+
+    private void HitsPlayer(Collider playerCollider)
+    {
+        playerCollider.GetComponent<DeathHandler>().CallDeath();
     }
 
     private void GotHitByPlayer(Collider playerCollider)
