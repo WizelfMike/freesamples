@@ -12,7 +12,7 @@ public class GhostStateHandler : MonoBehaviour
         _thisDeathHandler = GetComponent<DeathHandler>();
     }
 
-    public void ChangeToScaredState(ManPacStates currentState)
+    public void ChangeState(ManPacStates currentState)
     {
         if (currentState == ManPacStates.Aggressive)
         {

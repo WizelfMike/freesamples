@@ -17,7 +17,7 @@ public class DeathHandler : MonoBehaviour
     private PlayerMovement _thisPlayerMovement;
     private IntersectionTraverser _thisPlayerTraverser;
     private int _deathWaitTime = 2;
-    private string _deathTrigger = "Dead";
+    private string _deathTrigger = "Died";
     private string _reviveTrigger = "Revived";
     private bool _isInDanger = false;
     private bool _canDie = true;
@@ -38,6 +38,19 @@ public class DeathHandler : MonoBehaviour
             return;
 
         StartCoroutine(Death());
+    }
+
+    public void ChangeGhostMovementSpeed(float slowSpeed)
+    {
+        if (_isInDanger)
+        {
+            _thisPlayerTraverser.CurrentVelocity = slowSpeed;
+        }
+
+        if (!_isInDanger)
+        {
+            _thisPlayerTraverser.CurrentVelocity = 1f;
+        }
     }
 
     private IEnumerator Death()
