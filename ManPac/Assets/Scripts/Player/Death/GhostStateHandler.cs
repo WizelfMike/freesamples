@@ -5,23 +5,23 @@ using UnityEngine.Events;
 [RequireComponent(typeof(DeathHandler))]
 public class GhostStateHandler : MonoBehaviour
 {
-    private DeathHandler thisDeathHandler;
+    private DeathHandler _thisDeathHandler;
 
     private void Start()
     {
-        thisDeathHandler = GetComponent<DeathHandler>();
+        _thisDeathHandler = GetComponent<DeathHandler>();
     }
 
     public void ChangeToScaredState(ManPacStates currentState)
     {
         if (currentState == ManPacStates.Aggressive)
         {
-            thisDeathHandler.IsInDanger = true;
+            _thisDeathHandler.IsInDanger = true;
         }
 
         if (currentState == ManPacStates.Avoidant)
         {
-            thisDeathHandler.IsInDanger = false;
+            _thisDeathHandler.IsInDanger = false;
         }
     }
 }
