@@ -76,7 +76,7 @@ public class ManPacEnemy : MonoBehaviour
     private void GotHitByPlayer(Collider playerCollider)
     {
         OnGotHitByPlayer.Invoke(playerCollider.gameObject);
-        _agent.AddReward(-5000f);
+        _agent.AddReward(-1000f);
         _agent.EndEpisode();
     }
 
@@ -86,12 +86,12 @@ public class ManPacEnemy : MonoBehaviour
         _traverser.SetBeginDirection(BeginDirection);
     }
 
-    public void OnPelletPickedUp(int scoreAddition, PelletTypes pelletType)
+    public void OnPelletPickedUp(Pellet pellet)
     {
-        _agent.AddReward(scoreAddition);
+        _agent.AddReward(pellet.Score);
         
         // only change to aggressive state when power-pellet was picked up
-        if (pelletType != PelletTypes.Power)
+        if (pellet.Type != PelletTypes.Power)
             return;
         
         _aggressiveTimer.Reset();

@@ -16,10 +16,12 @@ public class ManPacAgent : Agent
     private IntersectionTraverser[] PlayerTraversers;
 
     private IntersectionTraverser _traverser;
+    private LevelPelletCounter _pelletCounter;
     private IntersectionNode[] _intersections;
 
     private void Start()
     {
+        _pelletCounter = FindAnyObjectByType<LevelPelletCounter>(FindObjectsInactive.Exclude);
         _traverser = GetComponent<IntersectionTraverser>();
         
         _intersections = FindObjectsByType<IntersectionNode>(FindObjectsSortMode.None);
@@ -35,15 +37,18 @@ public class ManPacAgent : Agent
         Vector3 ownPosition = transform.position;
         Vector3 closestPlayerPos = DistanceHelper.FindClosestGameObject(ownPosition, PlayerTraversers).transform.position;
         IntersectionNode closestIntersectionPos = DistanceHelper.FindClosestGameObject(ownPosition, _intersections);
+        Pellet closestPellet = DistanceHelper.FindClosestGameObject(ownPosition, _pelletCounter.Pellets);
         
-        // Adds 3 inputs
-        sensor.AddObservation(ownPosition);
-        // Adds 3 inputs
-        sensor.AddObservation(closestPlayerPos);
-        // Adds 3 inputs
-        sensor.AddObservation(closestIntersectionPos.transform.position);
+        // Adds 2 inputs
+        sensor.AddObservation(ownPosition.ToVector2Z());
+        // Adds 2 inputs
+        sensor.AddObservation(closestPlayerPos.ToVector2Z());
+        // Adds 2 inputs
+        sensor.AddObservation(closestIntersectionPos.transform.position.ToVector2Z());
+        // Adds 2 inputs
+        sensor.AddObservation(closestPellet == null ? Vector2.zero : closestPellet.transform.position.ToVector2Z());
         // ------------------------------------------------ +
-        // Total of 9 inputs
+        // Total of 8 inputs
         
         // Adds a maximum of 8 inputs
         ReadOnlySpan<Vector2> allowedDirections = closestIntersectionPos.AllowedDirections;
@@ -51,7 +56,7 @@ public class ManPacAgent : Agent
         for (int i = 0; i < allowedDirectionCount; i++)
             sensor.AddObservation(allowedDirections[i]);
         // ------------------------------------------------ +
-        // Total of 17
+        // Total of 16
     }
 
     public override void OnActionReceived(ActionBuffers actions)

@@ -48,7 +48,11 @@ public static class DistanceHelper
          int othersLength = others.Count;
          Vector3[] positions = new Vector3[othersLength];
          for (int i = 0; i < othersLength; i++)
-             positions[i] = others[i].transform.position;
+         {
+             positions[i] = others[i] == null ? 
+                 new Vector3(float.PositiveInfinity, float.PositiveInfinity, float.PositiveInfinity)
+                 : others[i].transform.position;
+         }
          
          int index = FindClosestOnIndex(position, positions);
          return others[index];       
