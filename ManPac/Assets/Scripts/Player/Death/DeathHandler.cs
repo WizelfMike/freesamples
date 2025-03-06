@@ -42,15 +42,8 @@ public class DeathHandler : MonoBehaviour
 
     public void ChangeGhostMovementSpeed(float slowSpeed)
     {
-        if (_isInDanger)
-        {
-            _thisPlayerTraverser.CurrentVelocity = slowSpeed;
-        }
-
-        if (!_isInDanger)
-        {
-            _thisPlayerTraverser.CurrentVelocity = 1f;
-        }
+        _thisPlayerTraverser.CurrentVelocity = _isInDanger?
+            slowSpeed : 1f;
     }
 
     private IEnumerator Death()
