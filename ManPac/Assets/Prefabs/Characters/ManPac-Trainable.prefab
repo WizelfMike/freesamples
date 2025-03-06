@@ -60,22 +60,6 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
-      propertyPath: m_BrainParameters.VectorActionSpaceType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
-      propertyPath: m_BrainParameters.VectorActionSize.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
-      propertyPath: 'm_BrainParameters.VectorActionSize.Array.data[0]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7334147559469294180, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
-      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8677901751381218370, guid: e72d2f6765dca5f4581e4f19199069a8, type: 3}
       propertyPath: m_Name
       value: ManPac-Trainable
