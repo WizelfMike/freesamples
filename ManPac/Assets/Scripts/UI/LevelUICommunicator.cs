@@ -16,12 +16,6 @@ public class LevelUICommunicator : MonoBehaviour
         _powerPelletAnimator = PowerPelletImage.GetComponent<Animator>();
     }
 
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.J))
-            OnManPacStateChange(ManPacStates.Aggressive);
-    }
-
     public void OnManPacStateChange(ManPacStates newState)
     {
         _powerPelletAnimator.SetBool(PowerPelletActiveBoolean, newState == ManPacStates.Aggressive);
