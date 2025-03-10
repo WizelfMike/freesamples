@@ -17,6 +17,8 @@ public class Pellet : MonoBehaviour
     [Header("Events")]
     public UnityEvent<int, PelletTypes> OnPickedUp;
     
+    public PelletTypes Type => PelletType;
+    
     private void Start()
     {
         Invoke(nameof(EnableAnimator), Random.value);

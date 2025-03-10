@@ -107,6 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8950393638196117683}
+  - component: {fileID: 1122992147007198609}
   m_Layer: 5
   m_Name: PelletCounter
   m_TagString: Untagged
@@ -135,6 +136,28 @@ RectTransform:
   m_AnchoredPosition: {x: 80, y: 55}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1122992147007198609
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940653394530589490}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd22549a450d4d14c92802e189da5117, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7036809251968236873
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,8 +208,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e5840eeddfd2e4788c4fec14a9651d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy: {fileID: 0}
   PowerPelletImage: {fileID: 9019812668291466824}
   PowerPelletActiveBoolean: Active
+  PelletMediator: {fileID: 0}
+  UIPelletCounter: {fileID: 1425569999408400200}
+  PelletPickupAnimationActivation: Activate
 --- !u!1 &7989387605730464791
 GameObject:
   m_ObjectHideFlags: 0

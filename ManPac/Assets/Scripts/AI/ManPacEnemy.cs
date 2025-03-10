@@ -14,9 +14,9 @@ public class ManPacEnemy : MonoBehaviour
     
     [Header("Events")]
     [SerializeField]
-    private UnityEvent<GameObject> OnGotHitByPlayer;
+    public UnityEvent<GameObject> OnGotHitByPlayer;
     [SerializeField]
-    private UnityEvent<ManPacStates> OnBehaviourStateChanged;
+    public UnityEvent<ManPacStates> OnBehaviourStateChanged;
 
     private IntersectionTraverser _traverser;
     private SpawnpointUser _spawnpointUser;
