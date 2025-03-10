@@ -52,7 +52,9 @@ public class CharacterSwitcher : MonoBehaviour
     {
         int nextIndex = (_currentActivePlayerIndex + 1) % PlayerCharacters.Length;
         int maxTries = PlayerCharacters.Length - 1;
-        while (!_deathHandlers[nextIndex].IsDead)
+        
+        // Skip over the characters that are dead
+        while (_deathHandlers[nextIndex].IsDead)
         {
             if (maxTries <= 0)
                 break;

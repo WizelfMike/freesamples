@@ -42,6 +42,9 @@ public class LevelUICommunicator : MonoBehaviour
     [SerializeField]
     private CharacterSwitcher CharacterSwitcher;
     [SerializeField]
+    private PlayerDeathMediator DeathMediator;
+    
+    [SerializeField]
     private Image UIBlinkyImage;
     [SerializeField]
     private Image UIPinkyImage;
@@ -97,6 +100,7 @@ public class LevelUICommunicator : MonoBehaviour
         PelletMediator.OnPelletPickedUp.AddListener(OnPelletPickedUp);
         Enemy.OnBehaviourStateChanged.AddListener(OnManPacStateChange);
         CharacterSwitcher.OnCharacterActivated.AddListener(OnCharacterSwitched);
+        DeathMediator.OnDeathStateChanged.AddListener(OnCharacterDiedChanged);
         
         // Setting up the animators
         _powerPelletAnimator = PowerPelletImage.GetComponent<Animator>();
@@ -139,6 +143,14 @@ public class LevelUICommunicator : MonoBehaviour
         if (_characterStates[nowControlledIndex] == CharacterStates.Inactive)
             _characterStates[nowControlledIndex] = CharacterStates.Active;
         
+        UpdateCharacterStateUI();
+    }
+
+    private void OnCharacterDiedChanged(PlayerCharacter playerCharacter, bool isDead)
+    {
+        int diedIndex = (int) playerCharacter.Type;
+
+        _characterStates[diedIndex] = isDead ? CharacterStates.Dead : CharacterStates.Inactive;
         UpdateCharacterStateUI();
     }
 

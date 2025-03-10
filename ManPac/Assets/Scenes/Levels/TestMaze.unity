@@ -4552,6 +4552,30 @@ PrefabInstance:
       propertyPath: OnPelletPickedUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3580837238376237746, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OnDeathStateChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580837238376237746, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OnDeathStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 371908177}
+    - target: {fileID: 3580837238376237746, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OnDeathStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580837238376237746, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OnDeathStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPlayerCharacterDied
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580837238376237746, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OnDeathStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CharacterSwitcher, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580837238376237746, guid: c06c1d76a367b3b4f9cf16b1f3e91e7f, type: 3}
+      propertyPath: OnDeathStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35376,6 +35400,10 @@ PrefabInstance:
       propertyPath: Enemy
       value: 
       objectReference: {fileID: 1741930471}
+    - target: {fileID: 31215800196627398, guid: aff5f69cecf2a8c4f9fa8dd5ec17a506, type: 3}
+      propertyPath: DeathMediator
+      value: 
+      objectReference: {fileID: 293767233}
     - target: {fileID: 31215800196627398, guid: aff5f69cecf2a8c4f9fa8dd5ec17a506, type: 3}
       propertyPath: PelletMediator
       value: 
