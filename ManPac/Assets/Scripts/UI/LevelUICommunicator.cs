@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class LevelUICommunicator : MonoBehaviour
@@ -22,9 +23,10 @@ public class LevelUICommunicator : MonoBehaviour
         Active
     }
     
-    [Header("Power Pellet")]
     [SerializeField]
     private ManPacEnemy Enemy;
+    
+    [Header("Power Pellet")]
     [SerializeField]
     private Image PowerPelletImage;
     [SerializeField]
@@ -61,6 +63,18 @@ public class LevelUICommunicator : MonoBehaviour
     [SerializeField]
     private string DeadTrigger = "ToDead";
 
+    [Header("Diva status")]
+    [SerializeField]
+    private RectTransform DivaHealthContainer;
+    [SerializeField]
+    private float HealthContainerWidth;
+    [SerializeField]
+    private Sprite DivaAliveSprite;
+    [SerializeField]
+    private Sprite DivaDeathSprite;
+    [SerializeField]
+    private Image SpriteReference;
+
     private Animator _powerPelletAnimator;
     private Animator _pelletCounterAnimator;
     private int _normalPelletCount = 0;
@@ -68,6 +82,8 @@ public class LevelUICommunicator : MonoBehaviour
     private Image[] _uiImageMap;
     private Animator[] _characterUiAnimators;
     private CharacterStates[] _characterStates;
+    
+    private Image[] _healthImages;
     
     private void Awake()
     {
@@ -101,6 +117,7 @@ public class LevelUICommunicator : MonoBehaviour
         Enemy.OnBehaviourStateChanged.AddListener(OnManPacStateChange);
         CharacterSwitcher.OnCharacterActivated.AddListener(OnCharacterSwitched);
         DeathMediator.OnDeathStateChanged.AddListener(OnCharacterDiedChanged);
+        Enemy.OnGotHitByPlayer.AddListener(OnManPacGotHit);
         
         // Setting up the animators
         _powerPelletAnimator = PowerPelletImage.GetComponent<Animator>();
@@ -111,6 +128,7 @@ public class LevelUICommunicator : MonoBehaviour
             .Count(pellet => pellet.Type == PelletTypes.Ordinary);
         
         UpdatePelletCounter();
+        PrepareDivaHealth();
     }
 
     private void OnManPacStateChange(ManPacStates newState)
@@ -154,6 +172,11 @@ public class LevelUICommunicator : MonoBehaviour
         UpdateCharacterStateUI();
     }
 
+    private void OnManPacGotHit(GameObject player)
+    {
+        
+    }
+
     private string GetPelletDisplayString()
     {
         return _normalPelletCount.ToString().PadLeft(0, '0');
@@ -194,6 +217,23 @@ public class LevelUICommunicator : MonoBehaviour
                     characterUIImage.sprite = state.ActiveSprite;
                     break;
             }
+        }
+    }
+
+    private void PrepareDivaHealth()
+    {
+        int totalHealth = Enemy.TotalLiveCount;
+        float division = HealthContainerWidth / totalHealth;
+        float currentPosition = -division;
+        
+        _healthImages = new Image[totalHealth];
+        for (int i = 0; i < totalHealth; i++)
+        {
+            _healthImages[i] = Instantiate<Image>(SpriteReference, DivaHealthContainer);
+            _healthImages[i].sprite = DivaAliveSprite;
+            _healthImages[i].rectTransform
+                .SetLocalPositionAndRotation(new Vector2(currentPosition, 0), Quaternion.identity);
+            currentPosition += division;
         }
     }
 }
