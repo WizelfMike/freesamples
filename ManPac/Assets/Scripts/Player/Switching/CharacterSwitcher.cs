@@ -17,9 +17,15 @@ public class CharacterSwitcher : MonoBehaviour
     public PlayerCharacter CurrentActivePlayer => PlayerCharacters[_currentActivePlayerIndex];
 
     private int _currentActivePlayerIndex = -1;
+    private DeathHandler[] _deathHandlers;
 
     private void Start()
     {
+        int playerCharacterCount = PlayerCharacters.Length;
+        _deathHandlers = new DeathHandler[playerCharacterCount];
+        for (int i = 0; i < playerCharacterCount; i++)
+            _deathHandlers[i] = PlayerCharacters[i].GetComponent<DeathHandler>();
+        
         PrepareAllCharacters(StartCharacter);
     }
 
@@ -28,7 +34,33 @@ public class CharacterSwitcher : MonoBehaviour
         if (context.phase != InputActionPhase.Performed || _currentActivePlayerIndex == -1)
             return;
 
+        CycleNextPlayer();
+    }
+
+    public void OnPlayerCharacterDied(PlayerCharacter playerCharacter, bool isDead)
+    {
+        if (!isDead)
+            return;
+
+        if (playerCharacter.Type != CurrentActivePlayer.Type)
+            return;
+        
+        CycleNextPlayer();
+    }
+
+    private void CycleNextPlayer()
+    {
         int nextIndex = (_currentActivePlayerIndex + 1) % PlayerCharacters.Length;
+        int maxTries = PlayerCharacters.Length - 1;
+        while (!_deathHandlers[nextIndex].IsDead)
+        {
+            if (maxTries <= 0)
+                break;
+            
+            nextIndex = (nextIndex + 1) % PlayerCharacters.Length;
+            maxTries -= 1;
+        }
+
         PrepareNextCharacter(PlayerCharacters[nextIndex]);
     }
 
