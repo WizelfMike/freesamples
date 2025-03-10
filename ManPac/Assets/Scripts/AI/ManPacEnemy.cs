@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using FMODUnity;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,7 +12,7 @@ public class ManPacEnemy : MonoBehaviour
     [SerializeField]
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
-    
+
     [Header("Events")]
     [SerializeField]
     private UnityEvent<GameObject> OnGotHitByPlayer;
@@ -81,6 +82,7 @@ public class ManPacEnemy : MonoBehaviour
     private void OnAggressiveRanOut()
     {
         ChangeState(ManPacStates.Avoidant);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/EvilPacManMusic");
     }
     
     private void ChangeState(ManPacStates newState)
