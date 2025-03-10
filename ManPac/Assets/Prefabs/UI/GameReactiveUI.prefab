@@ -164,7 +164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8045576824e32c64593c0dd37674a668, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 573f9731e4d4c0d448f5f0ef3e80e2e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8045576824e32c64593c0dd37674a668, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14275d844296ccb48807fc54a48fe0b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8045576824e32c64593c0dd37674a668, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06a382eb84efd734ebf069643a4cc852, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -618,17 +618,17 @@ MonoBehaviour:
     InactiveSprite: {fileID: 21300000, guid: 941af5f949259b3498ef5b6d9aede2b7, type: 3}
     DeadSprite: {fileID: 21300000, guid: fb315e45b75001c42a4a8948a84cc7f8, type: 3}
   - Type: 1
-    ActiveSprite: {fileID: 21300000, guid: 8045576824e32c64593c0dd37674a668, type: 3}
-    InactiveSprite: {fileID: 21300000, guid: 941af5f949259b3498ef5b6d9aede2b7, type: 3}
-    DeadSprite: {fileID: 21300000, guid: fb315e45b75001c42a4a8948a84cc7f8, type: 3}
+    ActiveSprite: {fileID: 21300000, guid: 06a382eb84efd734ebf069643a4cc852, type: 3}
+    InactiveSprite: {fileID: 21300000, guid: 46e5b4cda55b452499a6a97001690c0e, type: 3}
+    DeadSprite: {fileID: 21300000, guid: e33bff7bf2139f84a8fed406ff7d1f83, type: 3}
   - Type: 2
-    ActiveSprite: {fileID: 21300000, guid: 8045576824e32c64593c0dd37674a668, type: 3}
-    InactiveSprite: {fileID: 21300000, guid: 941af5f949259b3498ef5b6d9aede2b7, type: 3}
-    DeadSprite: {fileID: 21300000, guid: fb315e45b75001c42a4a8948a84cc7f8, type: 3}
+    ActiveSprite: {fileID: 21300000, guid: 14275d844296ccb48807fc54a48fe0b0, type: 3}
+    InactiveSprite: {fileID: 21300000, guid: 9dcd1ffa9ef0ed144b3bd022cf83571b, type: 3}
+    DeadSprite: {fileID: 21300000, guid: 23a0b7bf08c73aa4489bb036308c9110, type: 3}
   - Type: 3
-    ActiveSprite: {fileID: 21300000, guid: 8045576824e32c64593c0dd37674a668, type: 3}
-    InactiveSprite: {fileID: 21300000, guid: 941af5f949259b3498ef5b6d9aede2b7, type: 3}
-    DeadSprite: {fileID: 21300000, guid: fb315e45b75001c42a4a8948a84cc7f8, type: 3}
+    ActiveSprite: {fileID: 21300000, guid: 573f9731e4d4c0d448f5f0ef3e80e2e0, type: 3}
+    InactiveSprite: {fileID: 21300000, guid: 7337e4017d93aa24eaa125c00631dcb7, type: 3}
+    DeadSprite: {fileID: 21300000, guid: 66a613b08c2f6a948933bb9ee88fdffb, type: 3}
   ActiveTrigger: ToActive
   InactiveTrigger: ToInactive
   DeadTrigger: ToDead
