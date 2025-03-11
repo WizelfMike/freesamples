@@ -13,21 +13,30 @@ public class ManPacEnemy : MonoBehaviour
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
 
+    [Header("Lifes")]
+    [SerializeField]
+    private float InvincibilityDuration = 5f;
+    [SerializeField]
+    private int StartingLiveCount = 3;
+
     [Header("Animation")]
     [SerializeField]
     private Animator ModelAnimator;
     
     [Header("Events")]
-    [SerializeField]
-    private UnityEvent<GameObject> OnGotHitByPlayer;
-    [SerializeField]
-    private UnityEvent<ManPacStates> OnBehaviourStateChanged;
+    public UnityEvent<GameObject> OnGotHitByPlayer;
+    public UnityEvent<GameObject> OnDied;
+    public UnityEvent<ManPacStates> OnBehaviourStateChanged;
+
+    public int TotalLiveCount => StartingLiveCount;
+    public int CurrentLiveCount => _currentLives;
 
     private IntersectionTraverser _traverser;
     private SpawnpointUser _spawnpointUser;
     private ManPacStates _currentState = ManPacStates.Avoidant;
     private DeltaTimer _aggressiveTimer;
-    private bool _isPlayerHit = false;
+    private DeltaTimer _invincibilityTimer;
+    private int _currentLives;
     
     private static readonly int _animatorVelocity = Animator.StringToHash("Velocity");
 
@@ -38,6 +47,7 @@ public class ManPacEnemy : MonoBehaviour
 
     private void Start()
     {
+        _currentLives = StartingLiveCount;
         _traverser = GetComponent<IntersectionTraverser>();
         _spawnpointUser = GetComponent<SpawnpointUser>();
         
@@ -48,14 +58,22 @@ public class ManPacEnemy : MonoBehaviour
         {
             OnTimerRanOut = OnAggressiveRanOut
         };
+
+        _invincibilityTimer = new DeltaTimer(InvincibilityDuration)
+        {
+            OnTimerRanOut = OnInvincibilityRanOut
+        };
     }
 
     private void Update()
     {
+        ModelAnimator.SetFloat(_animatorVelocity, _traverser.VelocityVector.magnitude);
+
         if (_aggressiveTimer.IsRunning && _currentState == ManPacStates.Aggressive)
             _aggressiveTimer.Update(Time.deltaTime);
         
-        ModelAnimator.SetFloat(_animatorVelocity, _traverser.VelocityVector.magnitude);
+        if (_invincibilityTimer.IsRunning)
+            _invincibilityTimer.Update(Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -68,9 +86,24 @@ public class ManPacEnemy : MonoBehaviour
 
         if (other.CompareTag("Player") && _currentState == ManPacStates.Avoidant && other.GetComponent<DeathHandler>().CanDie == true)
         {
-            if (!_isPlayerHit)
-                StartCoroutine(OnPlayerHit(other));
+            if (!_invincibilityTimer.IsRunning)
+                GotHitByPlayer(other);
         }
+    }
+
+    private void GotHitByPlayer(Collider playerCollider)
+    {
+        _invincibilityTimer.Reset();
+
+        ModelAnimator.SetTrigger("DeathTrigger");
+        _traverser.enabled = false;
+        
+        _currentLives -= 1;
+        
+        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
+        if (_currentLives <= 0)
+            OnDied.Invoke(playerCollider.gameObject);
+
     }
 
     public void OnAgentEpisodeBegan()
@@ -102,17 +135,9 @@ public class ManPacEnemy : MonoBehaviour
         _currentState = newState;
         OnBehaviourStateChanged.Invoke(_currentState);
     }
-    
-    public IEnumerator OnPlayerHit(Collider playerCollider)
-    {
-        _isPlayerHit = true;
-        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
-        ModelAnimator.SetTrigger("DeathTrigger");
-        _traverser.enabled = false;
-        
-        yield return new WaitForSeconds(3f);
 
+    private void OnInvincibilityRanOut()
+    {
         _traverser.enabled = true;
-        _isPlayerHit = false;
     }
 }

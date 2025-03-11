@@ -3,8 +3,7 @@ using UnityEngine.Events;
 
 public class PelletMediator : MonoBehaviour
 {
-    [SerializeField]
-    private UnityEvent<int, PelletTypes> OnPelletPickedUp;
+    public UnityEvent<int, PelletTypes> OnPelletPickedUp;
     
     private int _pointAmount;
 
@@ -12,6 +11,5 @@ public class PelletMediator : MonoBehaviour
     {
         _pointAmount += pelletScore;
         OnPelletPickedUp.Invoke(pelletScore, pelletType);
-        Debug.Log(_pointAmount);
     }
 }
