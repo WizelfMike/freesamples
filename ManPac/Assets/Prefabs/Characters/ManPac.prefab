@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocity: 1
   MinimalIntersectionProximity: 0.05
-  MinimalRequiredCorrespondence: 0
+  MinimalRequiredCorrespondence: -0.8
   DoubleCheckThreshold: 0.7071
   OnIntersectionInteraction:
     m_PersistentCalls:
@@ -213,6 +213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BeginDirection: {x: 0, y: 1}
   AggressiveDuration: 10
+  AvoidantModel: {fileID: 5022602860645237092, guid: 850fc320b4e87d0438e69b167e3368c8, type: 3}
+  AggressiveModel: {fileID: 5022602860645237092, guid: f9ddc958795deb44a91796c8ce2dad50, type: 3}
   OnGotHitByPlayer:
     m_PersistentCalls:
       m_Calls: []

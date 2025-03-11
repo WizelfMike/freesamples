@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using Unity.Sentis;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,6 +14,12 @@ public class ManPacEnemy : MonoBehaviour
     [SerializeField]
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
+
+    [Header("Models")]
+    [SerializeField]
+    private ModelAsset AvoidantModel;
+    [SerializeField]
+    private ModelAsset AggressiveModel;
     
     [Header("Events")]
     [SerializeField]
@@ -70,6 +77,7 @@ public class ManPacEnemy : MonoBehaviour
 
     private void HitsPlayer(Collider playerCollider)
     {
+        _agent.AddReward(100f);
         playerCollider.GetComponent<DeathHandler>().CallDeath();
     }
 
@@ -77,7 +85,6 @@ public class ManPacEnemy : MonoBehaviour
     {
         OnGotHitByPlayer.Invoke(playerCollider.gameObject);
         _agent.AddReward(-100f);
-        _agent.EndEpisode();
     }
 
     public void OnAgentEpisodeBegan()
@@ -109,6 +116,20 @@ public class ManPacEnemy : MonoBehaviour
             return;
         
         _currentState = newState;
+        ChangeAIModel(_currentState);
         OnBehaviourStateChanged.Invoke(_currentState);
+    }
+
+    private void ChangeAIModel(ManPacStates newState)
+    {
+        switch (newState)
+        {
+            case ManPacStates.Avoidant:
+                _agent.SetModel("Enemy", AvoidantModel);
+                break;
+            case ManPacStates.Aggressive:
+                _agent.SetModel("Enemy", AggressiveModel);
+                break;
+        }
     }
 }

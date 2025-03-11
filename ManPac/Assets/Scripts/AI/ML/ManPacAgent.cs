@@ -26,7 +26,6 @@ public class ManPacAgent : Agent
         
         _intersections = FindObjectsByType<IntersectionNode>(FindObjectsSortMode.None);
     }
-    
     public override void OnEpisodeBegin()
     {
         OnEpisodeBegins.Invoke();
@@ -66,5 +65,15 @@ public class ManPacAgent : Agent
         var option = new Vector2(moveX, moveY);
         
         _traverser.GivePreferredDirection(option);
+    }
+
+    private float RewardDirection()
+    {
+         Vector3 ownPosition = transform.position;
+         Vector3 closestPlayerPos =
+             DistanceHelper.FindClosestGameObject(ownPosition, PlayerTraversers).transform.position;
+         Vector3 playerDir = closestPlayerPos - ownPosition;
+         Vector3 goingDir = _traverser.VelocityVector.normalized;
+         return Vector3.Dot(playerDir, goingDir);
     }
 }
