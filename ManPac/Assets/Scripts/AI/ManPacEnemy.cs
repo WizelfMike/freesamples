@@ -1,5 +1,4 @@
-﻿using FMODUnity;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,17 +12,33 @@ public class ManPacEnemy : MonoBehaviour
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
 
+    [Header("Lifes")]
+    [SerializeField]
+    private float InvincibilityDuration = 5f;
+    [SerializeField]
+    private int StartingLiveCount = 3;
+
+    [Header("Animation")]
+    [SerializeField]
+    private Animator ModelAnimator;
+    
     [Header("Events")]
-    [SerializeField]
-    private UnityEvent<GameObject> OnGotHitByPlayer;
-    [SerializeField]
-    private UnityEvent<ManPacStates> OnBehaviourStateChanged;
+    public UnityEvent<GameObject> OnGotHitByPlayer;
+    public UnityEvent<GameObject> OnDied;
+    public UnityEvent<ManPacStates> OnBehaviourStateChanged;
+
+    public int TotalLiveCount => StartingLiveCount;
+    public int CurrentLiveCount => _currentLives;
 
     private IntersectionTraverser _traverser;
     private SpawnpointUser _spawnpointUser;
     private ManPacStates _currentState = ManPacStates.Avoidant;
     private DeltaTimer _aggressiveTimer;
+    private DeltaTimer _invincibilityTimer;
+    private int _currentLives;
     
+    private static readonly int _animatorVelocity = Animator.StringToHash("Velocity");
+
     private void OnValidate()
     {
         BeginDirection.Normalize();
@@ -31,6 +46,7 @@ public class ManPacEnemy : MonoBehaviour
 
     private void Start()
     {
+        _currentLives = StartingLiveCount;
         _traverser = GetComponent<IntersectionTraverser>();
         _spawnpointUser = GetComponent<SpawnpointUser>();
         
@@ -41,12 +57,22 @@ public class ManPacEnemy : MonoBehaviour
         {
             OnTimerRanOut = OnAggressiveRanOut
         };
+
+        _invincibilityTimer = new DeltaTimer(InvincibilityDuration)
+        {
+            OnTimerRanOut = OnInvincibilityRanOut
+        };
     }
 
     private void Update()
     {
+        ModelAnimator.SetFloat(_animatorVelocity, _traverser.VelocityVector.magnitude);
+
         if (_aggressiveTimer.IsRunning && _currentState == ManPacStates.Aggressive)
             _aggressiveTimer.Update(Time.deltaTime);
+        
+        if (_invincibilityTimer.IsRunning)
+            _invincibilityTimer.Update(Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -59,8 +85,24 @@ public class ManPacEnemy : MonoBehaviour
 
         if (other.CompareTag("Player") && _currentState == ManPacStates.Avoidant && other.GetComponent<DeathHandler>().CanDie == true)
         {
-            OnGotHitByPlayer.Invoke(other.gameObject);
+            if (!_invincibilityTimer.IsRunning)
+                GotHitByPlayer(other);
         }
+    }
+
+    private void GotHitByPlayer(Collider playerCollider)
+    {
+        _invincibilityTimer.Reset();
+
+        ModelAnimator.SetTrigger("DeathTrigger");
+        _traverser.enabled = false;
+        
+        _currentLives -= 1;
+        
+        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
+        if (_currentLives <= 0)
+            OnDied.Invoke(playerCollider.gameObject);
+
     }
 
     public void OnAgentEpisodeBegan()
@@ -82,7 +124,6 @@ public class ManPacEnemy : MonoBehaviour
     private void OnAggressiveRanOut()
     {
         ChangeState(ManPacStates.Avoidant);
-        FMODUnity.RuntimeManager.PlayOneShot("event:/EvilPacManMusic");
     }
     
     private void ChangeState(ManPacStates newState)
@@ -92,5 +133,10 @@ public class ManPacEnemy : MonoBehaviour
         
         _currentState = newState;
         OnBehaviourStateChanged.Invoke(_currentState);
+    }
+
+    private void OnInvincibilityRanOut()
+    {
+        _traverser.enabled = true;
     }
 }
