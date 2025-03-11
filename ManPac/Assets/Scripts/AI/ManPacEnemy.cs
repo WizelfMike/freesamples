@@ -28,7 +28,8 @@ public class ManPacEnemy : MonoBehaviour
     private ManPacStates _currentState = ManPacStates.Avoidant;
     private DeltaTimer _aggressiveTimer;
     private bool _isPlayerHit = false;
-    private static readonly int Velocity = Animator.StringToHash("Velocity");
+    
+    private static readonly int _animatorVelocity = Animator.StringToHash("Velocity");
 
     private void OnValidate()
     {
@@ -54,7 +55,7 @@ public class ManPacEnemy : MonoBehaviour
         if (_aggressiveTimer.IsRunning && _currentState == ManPacStates.Aggressive)
             _aggressiveTimer.Update(Time.deltaTime);
         
-        ModelAnimator.SetFloat(Velocity, _traverser.VelocityVector.magnitude);
+        ModelAnimator.SetFloat(_animatorVelocity, _traverser.VelocityVector.magnitude);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -70,19 +71,6 @@ public class ManPacEnemy : MonoBehaviour
             if (!_isPlayerHit)
                 StartCoroutine(OnPlayerHit(other));
         }
-    }
-
-    public IEnumerator OnPlayerHit(Collider playerCollider)
-    {
-        _isPlayerHit = true;
-        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
-        ModelAnimator.SetTrigger("DeathTrigger");
-        _traverser.enabled = false;
-        
-        yield return new WaitForSeconds(3f);
-
-        _traverser.enabled = true;
-        _isPlayerHit = false;
     }
 
     public void OnAgentEpisodeBegan()
@@ -113,5 +101,18 @@ public class ManPacEnemy : MonoBehaviour
         
         _currentState = newState;
         OnBehaviourStateChanged.Invoke(_currentState);
+    }
+    
+    public IEnumerator OnPlayerHit(Collider playerCollider)
+    {
+        _isPlayerHit = true;
+        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
+        ModelAnimator.SetTrigger("DeathTrigger");
+        _traverser.enabled = false;
+        
+        yield return new WaitForSeconds(3f);
+
+        _traverser.enabled = true;
+        _isPlayerHit = false;
     }
 }
