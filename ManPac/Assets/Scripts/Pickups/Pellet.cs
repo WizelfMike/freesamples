@@ -20,6 +20,8 @@ public class Pellet : MonoBehaviour
     public PelletTypes Type => PelletType;
     public int Score => PelletScore;
     
+    public PelletTypes Type => PelletType;
+    
     private void Start()
     {
         Invoke(nameof(EnableAnimator), Random.value);

@@ -102,16 +102,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 16
+    VectorObservationSize: 9
     NumStackedVectorObservations: 2
     m_ActionSpec:
-      m_NumContinuousActions: 2
-      BranchSizes: 
-    VectorActionSize: 02000000
+      m_NumContinuousActions: 0
+      BranchSizes: 04000000
+    VectorActionSize: 04000000
     VectorActionDescriptions: []
-    VectorActionSpaceType: 1
+    VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 850fc320b4e87d0438e69b167e3368c8, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: f9ddc958795deb44a91796c8ce2dad50, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 2
   m_BehaviorName: Enemy
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocity: 1
   MinimalIntersectionProximity: 0.05
-  MinimalRequiredCorrespondence: -0.8
+  MinimalRequiredCorrespondence: 0
   DoubleCheckThreshold: 0.7071
   OnIntersectionInteraction:
     m_PersistentCalls:
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   DecisionStep: 0
-  TakeActionsBetweenDecisions: 0
+  TakeActionsBetweenDecisions: 1
 --- !u!114 &3276200922999712272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,11 +211,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82e1dc206af4049bd93f96771fa73ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BeginDirection: {x: 0, y: 1}
+  BeginDirection: {x: 0, y: -1}
   AggressiveDuration: 10
-  AvoidantModel: {fileID: 5022602860645237092, guid: 850fc320b4e87d0438e69b167e3368c8, type: 3}
-  AggressiveModel: {fileID: 5022602860645237092, guid: f9ddc958795deb44a91796c8ce2dad50, type: 3}
+  InvincibilityDuration: 3
+  StartingLiveCount: 3
   OnGotHitByPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDied:
     m_PersistentCalls:
       m_Calls: []
   OnBehaviourStateChanged:
