@@ -102,14 +102,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 9
+    VectorObservationSize: 16
     NumStackedVectorObservations: 2
     m_ActionSpec:
-      m_NumContinuousActions: 0
-      BranchSizes: 04000000
-    VectorActionSize: 04000000
+      m_NumContinuousActions: 2
+      BranchSizes: 
+    VectorActionSize: 02000000
     VectorActionDescriptions: []
-    VectorActionSpaceType: 0
+    VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 5022602860645237092, guid: f9ddc958795deb44a91796c8ce2dad50, type: 3}
   m_InferenceDevice: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Velocity: 1
   MinimalIntersectionProximity: 0.05
-  MinimalRequiredCorrespondence: 0
+  MinimalRequiredCorrespondence: -0.8
   DoubleCheckThreshold: 0.7071
   OnIntersectionInteraction:
     m_PersistentCalls:
@@ -213,6 +213,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BeginDirection: {x: 0, y: -1}
   AggressiveDuration: 10
+  AvoidantModel: {fileID: 5022602860645237092, guid: 850fc320b4e87d0438e69b167e3368c8, type: 3}
+  AggressiveModel: {fileID: 5022602860645237092, guid: f9ddc958795deb44a91796c8ce2dad50, type: 3}
   InvincibilityDuration: 3
   StartingLiveCount: 3
   OnGotHitByPlayer:
