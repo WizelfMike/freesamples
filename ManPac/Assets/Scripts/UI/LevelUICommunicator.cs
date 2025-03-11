@@ -57,11 +57,11 @@ public class LevelUICommunicator : MonoBehaviour
     [SerializeField]
     private PlayerUIStates[] UIDisplayStates;
     [SerializeField]
-    private string ActiveTrigger = "ToActive";
+    private string PlayerActiveTrigger = "ToActive";
     [SerializeField]
-    private string InactiveTrigger = "ToInactive";
+    private string PlayerInactiveTrigger = "ToInactive";
     [SerializeField]
-    private string DeadTrigger = "ToDead";
+    private string PlayerDeadTrigger = "ToDead";
 
     [Header("Diva status")]
     [SerializeField]
@@ -69,11 +69,9 @@ public class LevelUICommunicator : MonoBehaviour
     [SerializeField]
     private float HealthContainerWidth;
     [SerializeField]
-    private Sprite DivaAliveSprite;
-    [SerializeField]
-    private Sprite DivaDeathSprite;
-    [SerializeField]
     private Image SpriteReference;
+    [SerializeField]
+    private string HealthDeathTrigger = "ToDeadTrigger";
 
     private Animator _powerPelletAnimator;
     private Animator _pelletCounterAnimator;
@@ -174,7 +172,7 @@ public class LevelUICommunicator : MonoBehaviour
 
     private void OnManPacGotHit(GameObject player)
     {
-        
+        UpdateDivaHealth();
     }
 
     private string GetPelletDisplayString()
@@ -198,22 +196,22 @@ public class LevelUICommunicator : MonoBehaviour
             Image characterUIImage = _uiImageMap[(int) state.Type];
             
             // Force reset all triggers
-            characterUIAnimator.ResetTrigger(DeadTrigger);
-            characterUIAnimator.ResetTrigger(InactiveTrigger);
-            characterUIAnimator.ResetTrigger(ActiveTrigger);
+            characterUIAnimator.ResetTrigger(PlayerDeadTrigger);
+            characterUIAnimator.ResetTrigger(PlayerInactiveTrigger);
+            characterUIAnimator.ResetTrigger(PlayerActiveTrigger);
 
             switch (characterState)
             {
                 case CharacterStates.Dead:
-                    characterUIAnimator.SetTrigger(DeadTrigger);
+                    characterUIAnimator.SetTrigger(PlayerDeadTrigger);
                     characterUIImage.sprite = state.DeadSprite;
                     break;
                 case CharacterStates.Inactive:
-                    characterUIAnimator.SetTrigger(InactiveTrigger);
+                    characterUIAnimator.SetTrigger(PlayerInactiveTrigger);
                     characterUIImage.sprite = state.InactiveSprite;
                     break;
                 case CharacterStates.Active:
-                    characterUIAnimator.SetTrigger(ActiveTrigger);
+                    characterUIAnimator.SetTrigger(PlayerActiveTrigger);
                     characterUIImage.sprite = state.ActiveSprite;
                     break;
             }
@@ -230,10 +228,17 @@ public class LevelUICommunicator : MonoBehaviour
         for (int i = 0; i < totalHealth; i++)
         {
             _healthImages[i] = Instantiate<Image>(SpriteReference, DivaHealthContainer);
-            _healthImages[i].sprite = DivaAliveSprite;
             _healthImages[i].rectTransform
                 .SetLocalPositionAndRotation(new Vector2(currentPosition, 0), Quaternion.identity);
             currentPosition += division;
         }
+    }
+
+    private void UpdateDivaHealth()
+    {
+        int changingIndex = Mathf.Max(Enemy.CurrentLiveCount, 0);
+        Image targetImage = _healthImages[changingIndex];
+        Animator targetAnimator = targetImage.GetComponent<Animator>();
+        targetAnimator.SetTrigger(HealthDeathTrigger);
     }
 }
