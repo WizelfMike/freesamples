@@ -29718,7 +29718,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IntersectionTraverser: {fileID: 1823624492}
+  CheckIntersectionDirections: {fileID: 1823624519}
   mayActivate: 0
+--- !u!114 &1823624519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371885785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec170e5ee8e470141a3710a9ff3e7444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1826474923
 GameObject:
   m_ObjectHideFlags: 0
@@ -34914,6 +34927,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1305804747776144277, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1823624510}
+    - targetCorrespondingSourceObject: {fileID: 1305804747776144277, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1823624519}
   m_SourcePrefab: {fileID: 100100000, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
 --- !u!1001 &4368177794289213192
 PrefabInstance:
