@@ -11,6 +11,10 @@ public class Pellet : MonoBehaviour
     [SerializeField]
     private int PelletScore = 10;
 
+    [Header("Death Settings")]
+    [SerializeField]
+    private int TimeToRespawn;
+
     [Header("AnimationSettings")]
     [SerializeField]
     private Animator Animator;
@@ -68,7 +72,7 @@ public class Pellet : MonoBehaviour
     {
         hidePellet(false);
 
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(TimeToRespawn);
 
         hidePellet(true);
     }
