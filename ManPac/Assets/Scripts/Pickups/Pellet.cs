@@ -30,7 +30,7 @@ public class Pellet : MonoBehaviour
     {
         Invoke(nameof(EnableAnimator), Random.value);
 
-        gameObject.GetComponent<SphereCollider>();
+        _sphereCollider = gameObject.GetComponent<SphereCollider>();
     }
     
     private void OnTriggerEnter(Collider manpac)
