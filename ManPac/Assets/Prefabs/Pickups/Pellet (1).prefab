@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PelletType: 0
   PelletScore: 10
+  TimeToRespawn: 0
   Animator: {fileID: 9071294906813314238}
   OnPickedUp:
     m_PersistentCalls:
@@ -216,11 +217,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1345803316
-      Data2: 1197282558
-      Data3: 1499230905
-      Data4: 1997574413
-    Path: event:/LosePower
+      Data1: 1978771081
+      Data2: 1176478937
+      Data3: 374838971
+      Data4: 1126200882
+    Path: event:/PickUpBasicPellet
   Event: 
   EventPlayTrigger: 2
   EventStopTrigger: 0
