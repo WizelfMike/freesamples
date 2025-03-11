@@ -39,10 +39,7 @@ public class CharacterSwitcher : MonoBehaviour
 
     public void OnPlayerCharacterDied(PlayerCharacter playerCharacter, bool isDead)
     {
-        if (!isDead)
-            return;
-
-        if (playerCharacter.Type != CurrentActivePlayer.Type)
+        if (!isDead || playerCharacter.Type != CurrentActivePlayer.Type)
             return;
         
         CycleNextPlayer();
@@ -53,7 +50,6 @@ public class CharacterSwitcher : MonoBehaviour
         int nextIndex = (_currentActivePlayerIndex + 1) % PlayerCharacters.Length;
         int maxTries = PlayerCharacters.Length - 1;
         
-        // Skip over the characters that are dead
         while (_deathHandlers[nextIndex].IsDead)
         {
             if (maxTries <= 0)

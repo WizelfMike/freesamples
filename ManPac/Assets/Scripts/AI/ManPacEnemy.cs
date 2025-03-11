@@ -12,6 +12,8 @@ public class ManPacEnemy : MonoBehaviour
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
     [SerializeField]
+    private float InvincibilityDuration = 5f;
+    [SerializeField]
     private int StartingLiveCount = 3;
     
     [Header("Events")]
@@ -51,7 +53,7 @@ public class ManPacEnemy : MonoBehaviour
             OnTimerRanOut = OnAggressiveRanOut
         };
 
-        _invincibilityTimer = new DeltaTimer(5f);
+        _invincibilityTimer = new DeltaTimer(InvincibilityDuration);
     }
 
     private void Update()

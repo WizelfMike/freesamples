@@ -1,15 +1,15 @@
-﻿    using System;
-    using UnityEngine;
+﻿    using UnityEngine;
 
     public class XAxisLocked : MonoBehaviour, IFacePlane
     {
-        [SerializeField] private Plane facingPlane;
+        [SerializeField]
+        private Plane FacingPlane;
 
-        public IPlane GetFacingPlane() => facingPlane;
+        public IPlane GetFacingPlane() => FacingPlane;
 
         public Vector3 FaceCamera()
         {
-            Vector3 dir = facingPlane.Transform.position - transform.position;
+            Vector3 dir = FacingPlane.Transform.position - transform.position;
             Quaternion newDir = Quaternion.LookRotation(dir);
 
             dir = newDir.eulerAngles;
@@ -17,10 +17,5 @@
             transform.eulerAngles = dir;
 
             return newDir.eulerAngles;
-        }
-
-        private void Update()
-        {
-            FaceCamera();
         }
     }

@@ -1,20 +1,20 @@
-using System;
 using UnityEngine;
 
 public class PlaneLocked : MonoBehaviour, IFacePlane
 {
-    [SerializeField] private Plane facingPlane;
+    [SerializeField]
+    private Plane FacingPlane;
 
-    public IPlane GetFacingPlane() => facingPlane;
+    public IPlane GetFacingPlane() => FacingPlane;
 
     public Vector3 FaceCamera()
     {
-        var curPos = transform.position;
+        Vector3 curPos = transform.position;
         
-        var targetPos = facingPlane.Project(curPos);
-        var targetDir = curPos - targetPos;
+        Vector3 targetPos = FacingPlane.Project(curPos);
+        Vector3 targetDir = curPos - targetPos;
         
-        var newDir = Quaternion.LookRotation(targetDir);
+        Quaternion newDir = Quaternion.LookRotation(targetDir);
         transform.rotation = newDir;
         return newDir.eulerAngles;
     }
