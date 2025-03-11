@@ -631,14 +631,13 @@ MonoBehaviour:
     ActiveSprite: {fileID: 21300000, guid: 573f9731e4d4c0d448f5f0ef3e80e2e0, type: 3}
     InactiveSprite: {fileID: 21300000, guid: 7337e4017d93aa24eaa125c00631dcb7, type: 3}
     DeadSprite: {fileID: 21300000, guid: 66a613b08c2f6a948933bb9ee88fdffb, type: 3}
-  ActiveTrigger: ToActive
-  InactiveTrigger: ToInactive
-  DeadTrigger: ToDead
+  PlayerActiveTrigger: ToActive
+  PlayerInactiveTrigger: ToInactive
+  PlayerDeadTrigger: ToDead
   DivaHealthContainer: {fileID: 496788822229169330}
   HealthContainerWidth: 500
-  DivaAliveSprite: {fileID: 21300000, guid: 6fbf00a23f9adb548bf0931c23fe1cb0, type: 3}
-  DivaDeathSprite: {fileID: 21300000, guid: f462f30115817e24eb48a3bc00c990e6, type: 3}
   SpriteReference: {fileID: 1212878791066516421, guid: 736f9a9896f8f2247ae50a17ac2a31e3, type: 3}
+  HealthDeathTrigger: ToDeadTrigger
 --- !u!1 &7549685548176503074
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -65}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8765773669104910772
