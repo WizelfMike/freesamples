@@ -17,11 +17,8 @@ public class ManPacEnemy : MonoBehaviour
     private int StartingLiveCount = 3;
     
     [Header("Events")]
-    [SerializeField]
     public UnityEvent<GameObject> OnGotHitByPlayer;
-    [SerializeField]
     public UnityEvent<GameObject> OnDied;
-    [SerializeField]
     public UnityEvent<ManPacStates> OnBehaviourStateChanged;
 
     public int TotalLiveCount => StartingLiveCount;

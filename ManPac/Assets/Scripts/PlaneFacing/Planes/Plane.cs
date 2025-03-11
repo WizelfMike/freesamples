@@ -12,12 +12,12 @@ public class Plane : MonoBehaviour, IPlane
     
     public Vector3 Project(Vector3 position)
     {
-        var dir = position - Transform.position;
-        var right = Transform.right;
-        var up = Transform.up;
+        Vector3 dir = position - Transform.position;
+        Vector3 right = Transform.right;
+        Vector3 up = Transform.up;
 
-        var xDot = Vector3.Dot(dir, right);
-        var yDot = Vector3.Dot(dir, up);
+        float xDot = Vector3.Dot(dir, right);
+        float yDot = Vector3.Dot(dir, up);
 
         return Transform.position + xDot * right + yDot * up;
     }

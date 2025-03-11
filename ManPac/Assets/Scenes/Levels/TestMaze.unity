@@ -23707,6 +23707,10 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4883961635244539779, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: FacingPlane
+      value: 
+      objectReference: {fileID: 1821229478}
+    - target: {fileID: 4883961635244539779, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: facingPlane
       value: 
       objectReference: {fileID: 1821229478}
@@ -29874,7 +29878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe90576738608146b5c63a948e396a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followingCamera: {fileID: 1821229475}
+  FollowingCamera: {fileID: 1821229475}
 --- !u!1001 &1822875669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35341,6 +35345,10 @@ PrefabInstance:
       propertyPath: OnRevived.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4883961635244539779, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: FacingPlane
+      value: 
+      objectReference: {fileID: 1821229478}
     - target: {fileID: 4883961635244539779, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: facingPlane
       value: 

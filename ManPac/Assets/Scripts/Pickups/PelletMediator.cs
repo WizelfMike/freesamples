@@ -3,7 +3,6 @@ using UnityEngine.Events;
 
 public class PelletMediator : MonoBehaviour
 {
-    [SerializeField]
     public UnityEvent<int, PelletTypes> OnPelletPickedUp;
     
     private int _pointAmount;
