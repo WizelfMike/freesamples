@@ -29638,6 +29638,11 @@ MonoBehaviour:
   m_BlackboardVariableOverridesList:
   - rid: 4442717572638965823
   - rid: 4442717572638965824
+  - rid: 4442717591105437809
+  - rid: 4442717591105438170
+  - rid: 4442717591105438171
+  - rid: 4442717613310607497
+  - rid: 4442717706677912504
   m_IsInitialised: 0
   m_IsStarted: 0
   references:
@@ -29659,6 +29664,61 @@ MonoBehaviour:
           m_Value1: 7443352112348631982
         Name: Man-Pac
         m_Value: {fileID: 1886345684}
+    - rid: 4442717591105437809
+      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10743963661243313118
+          m_Value1: 10833248527134964801
+        Name: PlayerName
+        m_Value: Player
+    - rid: 4442717591105438170
+      type: {class: 'BlackboardVariable`1[[LocationNavigationSingelton, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 11565551598053599052
+          m_Value1: 3039328377644452986
+        Name: Location Navigation Singelton
+        m_Value: {fileID: 1859320253}
+    - rid: 4442717591105438171
+      type: {class: 'BlackboardVariable`1[[IntersectionTraverser, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 11245814336045893204
+          m_Value1: 9768649124794226560
+        Name: Intersection Traverser
+        m_Value: {fileID: 1823624492}
+    - rid: 4442717613310607497
+      type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 8651120654075287301
+          m_Value1: 16282904212326165914
+        Name: waypoints
+        m_Value:
+        - {fileID: 117361512}
+    - rid: 4442717706677912504
+      type: {class: 'BlackboardVariable`1[[CheckOnIntersection, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 15137386591831216200
+          m_Value1: 8382772551369041430
+        Name: Check On Intersection
+        m_Value: {fileID: 1823624510}
+--- !u!114 &1823624510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371885785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3695c98e7a1845a4ebbe8141ac2a3d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntersectionTraverser: {fileID: 1823624492}
+  mayActivate: 0
 --- !u!1 &1826474923
 GameObject:
   m_ObjectHideFlags: 0
@@ -30584,6 +30644,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8453244949324958768, guid: 5b780903e70eaef46910dc9a7672ed16, type: 3}
   m_PrefabInstance: {fileID: 1855797596}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1859320252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1859320254}
+  - component: {fileID: 1859320253}
+  m_Layer: 0
+  m_Name: Navigation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1859320253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859320252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ad0fcb4e3648147bb75436ea84185a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemy: {fileID: 1886345684}
+--- !u!4 &1859320254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859320252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00000017881393, y: 0.48465443, z: 3.7549334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1861840065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34764,8 +34869,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: CheckOnIntersection
+      value: 
+      objectReference: {fileID: 1823624510}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: MinimalIntersectionProximity
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1823624510}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnIntersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CheckOnIntersection, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534367823046029320, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: OnIntersectionInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34774,6 +34911,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1305804747776144277, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1823624501}
+    - targetCorrespondingSourceObject: {fileID: 1305804747776144277, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1823624510}
   m_SourcePrefab: {fileID: 100100000, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
 --- !u!1001 &4368177794289213192
 PrefabInstance:
@@ -34919,3 +35059,4 @@ SceneRoots:
   - {fileID: 190178225}
   - {fileID: 1661549167766675222}
   - {fileID: 4368177794289213192}
+  - {fileID: 1859320254}

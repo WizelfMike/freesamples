@@ -13,6 +13,12 @@ public class IntersectionNode : MonoBehaviour
         new Vector2(-1, 0)
     };
 
+    public Vector2[] IntersectionDirections
+    {
+        get => Directions;
+        private set => Directions = value;
+    }
+    
     private void OnValidate()
     {
         int directionCount = Directions.Length;

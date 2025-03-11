@@ -10,8 +10,9 @@ public class IntersectionTraverser : MonoBehaviour
     [SerializeField]
     [Range(0.01f, 5f)]
     private float MinimalIntersectionProximity = 0.1f;
-
     [SerializeField]
+    private CheckOnIntersection CheckOnIntersection;
+    
     public UnityEvent<IntersectionNode> OnIntersectionInteraction;
 
     private float _previousVelocity = 0f;
@@ -31,6 +32,11 @@ public class IntersectionTraverser : MonoBehaviour
     }
     public Vector3 VelocityVector => _currentDirection * Velocity;
 
+    public List<IntersectionNode> InteractingIntersections
+    {
+        get => _interactingIntersections;
+        private set => _interactingIntersections = value;
+    }
     private void FixedUpdate()
     {
         if (CheckIntersectionProximity())
