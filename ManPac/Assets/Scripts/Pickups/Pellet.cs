@@ -17,10 +17,14 @@ public class Pellet : MonoBehaviour
     
     [Header("Events")]
     public UnityEvent<int, PelletTypes> OnPickedUp;
+
+    private SphereCollider _spherecollider;
     
     private void Start()
     {
         Invoke(nameof(EnableAnimator), Random.value);
+
+        gameObject.GetComponent<SphereCollider>();
     }
     
     private void OnTriggerEnter(Collider manpac)
@@ -57,7 +61,7 @@ public class Pellet : MonoBehaviour
             child.gameObject.SetActive(hasWaited);
         }
 
-        gameObject.GetComponent<SphereCollider>().enabled = hasWaited;
+        _spherecollider.enabled = hasWaited;
     }
 
     private IEnumerator RespawnTimer()
