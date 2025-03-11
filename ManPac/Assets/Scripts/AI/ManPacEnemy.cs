@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,6 +12,10 @@ public class ManPacEnemy : MonoBehaviour
     [SerializeField]
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
+
+    [Header("Animation")]
+    [SerializeField]
+    private Animator ModelAnimator;
     
     [Header("Events")]
     [SerializeField]
@@ -22,7 +27,9 @@ public class ManPacEnemy : MonoBehaviour
     private SpawnpointUser _spawnpointUser;
     private ManPacStates _currentState = ManPacStates.Avoidant;
     private DeltaTimer _aggressiveTimer;
-    
+    private bool _isPlayerHit = false;
+    private static readonly int Velocity = Animator.StringToHash("Velocity");
+
     private void OnValidate()
     {
         BeginDirection.Normalize();
@@ -46,6 +53,8 @@ public class ManPacEnemy : MonoBehaviour
     {
         if (_aggressiveTimer.IsRunning && _currentState == ManPacStates.Aggressive)
             _aggressiveTimer.Update(Time.deltaTime);
+        
+        ModelAnimator.SetFloat(Velocity, _traverser.VelocityVector.magnitude);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -58,8 +67,22 @@ public class ManPacEnemy : MonoBehaviour
 
         if (other.CompareTag("Player") && _currentState == ManPacStates.Avoidant && other.GetComponent<DeathHandler>().CanDie == true)
         {
-            OnGotHitByPlayer.Invoke(other.gameObject);
+            if (!_isPlayerHit)
+                StartCoroutine(OnPlayerHit(other));
         }
+    }
+
+    public IEnumerator OnPlayerHit(Collider playerCollider)
+    {
+        _isPlayerHit = true;
+        OnGotHitByPlayer.Invoke(playerCollider.gameObject);
+        ModelAnimator.SetTrigger("DeathTrigger");
+        _traverser.enabled = false;
+        
+        yield return new WaitForSeconds(3f);
+
+        _traverser.enabled = true;
+        _isPlayerHit = false;
     }
 
     public void OnAgentEpisodeBegan()
