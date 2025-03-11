@@ -24,6 +24,8 @@ public class Pellet : MonoBehaviour
 
     private SphereCollider _sphereCollider;
     
+    public PelletTypes Type => PelletType;
+    
     private void Start()
     {
         Invoke(nameof(EnableAnimator), Random.value);
