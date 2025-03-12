@@ -134,9 +134,9 @@ public class LevelUICommunicator : MonoBehaviour
         _powerPelletAnimator.SetBool(PowerPelletActiveBoolean, newState == ManPacStates.Aggressive);
     }
 
-    private void OnPelletPickedUp(int score, PelletTypes pelletType)
+    private void OnPelletPickedUp(Pellet pellet)
     {
-        if (pelletType != PelletTypes.Ordinary)
+        if (pellet.Type != PelletTypes.Ordinary)
             return;
 
         _normalPelletCount -= 1;

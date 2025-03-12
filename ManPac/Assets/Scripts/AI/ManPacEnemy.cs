@@ -1,7 +1,10 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
+using Unity.Sentis;
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(ManPacAgent))]
 [RequireComponent(typeof(SpawnpointUser))]
 [RequireComponent(typeof(IntersectionTraverser))]
 public class ManPacEnemy : MonoBehaviour
@@ -11,6 +14,12 @@ public class ManPacEnemy : MonoBehaviour
     [SerializeField]
     [Description("Duration of the agressive state in seconds")]
     private float AggressiveDuration = 10f;
+
+    [Header("Models")]
+    [SerializeField]
+    private ModelAsset AvoidantModel;
+    [SerializeField]
+    private ModelAsset AggressiveModel;
 
     [Header("Lifes")]
     [SerializeField]
@@ -30,6 +39,7 @@ public class ManPacEnemy : MonoBehaviour
     public int TotalLiveCount => StartingLiveCount;
     public int CurrentLiveCount => _currentLives;
 
+    private ManPacAgent _agent;
     private IntersectionTraverser _traverser;
     private SpawnpointUser _spawnpointUser;
     private ManPacStates _currentState = ManPacStates.Avoidant;
@@ -44,15 +54,14 @@ public class ManPacEnemy : MonoBehaviour
         BeginDirection.Normalize();
     }
 
-    private void Start()
+    private void Awake()
     {
         _currentLives = StartingLiveCount;
+
+        _agent = GetComponent<ManPacAgent>();
         _traverser = GetComponent<IntersectionTraverser>();
         _spawnpointUser = GetComponent<SpawnpointUser>();
         
-        _spawnpointUser.ToSpawnPoint();
-        _traverser.SetBeginDirection(BeginDirection);
-
         _aggressiveTimer = new DeltaTimer(AggressiveDuration)
         {
             OnTimerRanOut = OnAggressiveRanOut
@@ -62,6 +71,12 @@ public class ManPacEnemy : MonoBehaviour
         {
             OnTimerRanOut = OnInvincibilityRanOut
         };
+    }
+
+    private void Start()
+    {
+        _spawnpointUser.ToSpawnPoint();
+        _traverser.SetBeginDirection(BeginDirection);
     }
 
     private void Update()
@@ -77,10 +92,9 @@ public class ManPacEnemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.CompareTag("Player") && _currentState == ManPacStates.Aggressive)
         {
-            other.GetComponent<DeathHandler>().CallDeath();
+            HitsPlayer(other);
         }
 
         if (other.CompareTag("Player") && _currentState == ManPacStates.Avoidant && other.GetComponent<DeathHandler>().CanDie == true)
@@ -90,8 +104,16 @@ public class ManPacEnemy : MonoBehaviour
         }
     }
 
+    private void HitsPlayer(Collider playerCollider)
+    {
+        _agent.AddReward(100f);
+        playerCollider.GetComponent<DeathHandler>().CallDeath();
+    }
+
     private void GotHitByPlayer(Collider playerCollider)
     {
+        _agent.AddReward(-100f);
+
         _invincibilityTimer.Reset();
 
         ModelAnimator.SetTrigger("DeathTrigger");
@@ -111,10 +133,12 @@ public class ManPacEnemy : MonoBehaviour
         _traverser.SetBeginDirection(BeginDirection);
     }
 
-    public void OnPelletPickedUp(int scoreAddition, PelletTypes pelletType)
+    public void OnPelletPickedUp(Pellet pellet)
     {
+        _agent.AddReward(pellet.Score);
+        
         // only change to aggressive state when power-pellet was picked up
-        if (pelletType != PelletTypes.Power)
+        if (pellet.Type != PelletTypes.Power)
             return;
         
         _aggressiveTimer.Reset();
@@ -132,7 +156,21 @@ public class ManPacEnemy : MonoBehaviour
             return;
         
         _currentState = newState;
+        ChangeAIModel(_currentState);
         OnBehaviourStateChanged.Invoke(_currentState);
+    }
+
+    private void ChangeAIModel(ManPacStates newState)
+    {
+        switch (newState)
+        {
+            case ManPacStates.Avoidant:
+                _agent.SetModel("Enemy", AvoidantModel);
+                break;
+            case ManPacStates.Aggressive:
+                _agent.SetModel("Enemy", AggressiveModel);
+                break;
+        }
     }
 
     private void OnInvincibilityRanOut()
