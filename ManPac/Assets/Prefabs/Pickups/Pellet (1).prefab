@@ -264,6 +264,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8530919718087013911, guid: 7fe8b8a0b4402b647a2558d1b52062d0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7fe8b8a0b4402b647a2558d1b52062d0, type: 3}
       propertyPath: m_Name
       value: circuit board

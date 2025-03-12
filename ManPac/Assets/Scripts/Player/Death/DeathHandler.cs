@@ -35,9 +35,6 @@ public class DeathHandler : MonoBehaviour
         _thisPlayerMovement = GetComponent<PlayerMovement>();
         _thisPlayerInput = GetComponent<PlayerInput>();
         _playerCharacter = GetComponent<PlayerCharacter>();
-        
-        _thisPlayerInput.enabled = true;
-        
     }
 
     public void CallDeath()

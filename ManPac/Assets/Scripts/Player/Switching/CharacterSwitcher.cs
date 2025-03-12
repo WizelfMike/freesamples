@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -10,6 +11,8 @@ public class CharacterSwitcher : MonoBehaviour
     private PlayerCharacterTypes StartCharacter = PlayerCharacterTypes.Pinky;
     [SerializeField]
     private PlayerCharacter[] PlayerCharacters;
+    [SerializeField]
+    private float SwitchTimeout;
     
     [Header("Events")]
     public UnityEvent<PlayerCharacter> OnCharacterActivated;
@@ -18,6 +21,12 @@ public class CharacterSwitcher : MonoBehaviour
 
     private int _currentActivePlayerIndex = -1;
     private DeathHandler[] _deathHandlers;
+    private DeltaTimer _switchTimer;
+
+    private void Awake()
+    {
+        _switchTimer = new DeltaTimer(SwitchTimeout);
+    }
 
     private void Start()
     {
@@ -29,11 +38,18 @@ public class CharacterSwitcher : MonoBehaviour
         PrepareAllCharacters(StartCharacter);
     }
 
+    private void Update()
+    {
+        if (_switchTimer.IsRunning)
+            _switchTimer.Update(Time.deltaTime);
+    }
+
     public void InputSwitchNextPlayer(InputAction.CallbackContext context)
     {
-        if (context.phase != InputActionPhase.Performed || _currentActivePlayerIndex == -1)
+        if (context.phase != InputActionPhase.Performed || _currentActivePlayerIndex == -1 || _switchTimer.IsRunning)
             return;
-
+        
+        _switchTimer.Reset();
         CycleNextPlayer();
     }
 
