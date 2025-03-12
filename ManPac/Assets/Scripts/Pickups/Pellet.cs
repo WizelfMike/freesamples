@@ -56,6 +56,7 @@ public class Pellet : MonoBehaviour
 
         if(PelletType == PelletTypes.Power)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/PickUpPower");
             StartCoroutine(RespawnTimer());
         }
     }
@@ -76,6 +77,7 @@ public class Pellet : MonoBehaviour
 
         yield return new WaitForSeconds(TimeToRespawn);
 
+        FMODUnity.RuntimeManager.PlayOneShot("event:/LosePower");
         hidePellet(true);
     }
 }

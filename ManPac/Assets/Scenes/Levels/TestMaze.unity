@@ -18599,7 +18599,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7672317125791026590, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/PickUpPower
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672317125791026590, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -1244660432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672317125791026590, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1152521035
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672317125791026590, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 127915140
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672317125791026590, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1330308974
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7672317125791026590, guid: d44db3c840c65294fad00733f8a37d80, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
