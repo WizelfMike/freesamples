@@ -33,6 +33,7 @@ public class MusicHandler : MonoBehaviour
     private void StopAllMusic()
     {
         _defaultMusicPath.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        _angryMusicPath.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
     }
 
     public void OnManPacStateChange(ManPacStates currentState)
