@@ -9,13 +9,6 @@ public class UIGameOverMenu : MonoBehaviour
     [SerializeField]
     private string GameLevelName;
     
-    // [Header("Conditional Text")]
-    // [SerializeField]
-    // private TextMeshProUGUI TextField;
-    // [SerializeField]
-    // private string WinText;
-    // [SerializeField]
-    // private string LoseText;
     [Header("Conditional display")]
     [SerializeField]
     private RectTransform WinContainer;
@@ -30,8 +23,6 @@ public class UIGameOverMenu : MonoBehaviour
     
     private void Awake()
     {
-        // GameOverCheck gameOverCheck = FindAnyObjectByType<GameOverCheck>();
-        // TextField.text = gameOverCheck.CurrentState == GameOverState.PlayerWon ? WinText : LoseText;
         GameOverCheck gameOverCheck = FindAnyObjectByType<GameOverCheck>();
         bool playerWon = gameOverCheck.CurrentState == GameOverState.PlayerWon;
         RectTransform activeContainer =
