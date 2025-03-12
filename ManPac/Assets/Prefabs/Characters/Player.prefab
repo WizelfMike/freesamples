@@ -17,6 +17,9 @@ GameObject:
   - component: {fileID: 1620438195157519335}
   - component: {fileID: 437365508271797158}
   - component: {fileID: 5374233444158715369}
+  - component: {fileID: 1731384836292867219}
+  - component: {fileID: 4540562065331018704}
+  - component: {fileID: 1794126061198271686}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -153,10 +156,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocity: 1
-  MinimalIntersectionProximity: 0.05
+  MinimalIntersectionProximity: 0.1
+  CheckOnIntersection: {fileID: 4540562065331018704}
   OnIntersectionInteraction:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4540562065331018704}
+        m_TargetAssemblyTypeName: CheckOnIntersection, Assembly-CSharp
+        m_MethodName: OnIntersection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1620438195157519335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be94dc5b96481064ead174422f97fb63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BeginDirection: {x: 0, y: 1}
+  BeginDirection: {x: 1, y: 0}
 --- !u!114 &5374233444158715369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,3 +245,113 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LookSpeed: 0.1
+--- !u!114 &1731384836292867219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: -4512876296478221723, guid: e5b55f822fc713646905aa57b7077d9e, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 4442717572638965823
+  - rid: 4442717572638965824
+  - rid: 4442717591105437809
+  - rid: 4442717591105438170
+  - rid: 4442717591105438171
+  - rid: 4442717613310607497
+  - rid: 4442717706677912504
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4442717572638965823
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 1305804747776144277}
+    - rid: 4442717572638965824
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 6932189826963621863
+          m_Value1: 7443352112348631982
+        Name: Man-Pac
+        m_Value: {fileID: 0}
+    - rid: 4442717591105437809
+      type: {class: 'BlackboardVariable`1[[System.String, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10743963661243313118
+          m_Value1: 10833248527134964801
+        Name: PlayerName
+        m_Value: Player
+    - rid: 4442717591105438170
+      type: {class: 'BlackboardVariable`1[[LocationNavigationSingelton, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 11565551598053599052
+          m_Value1: 3039328377644452986
+        Name: Location Navigation Singelton
+        m_Value: {fileID: 0}
+    - rid: 4442717591105438171
+      type: {class: 'BlackboardVariable`1[[IntersectionTraverser, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 11245814336045893204
+          m_Value1: 9768649124794226560
+        Name: Intersection Traverser
+        m_Value: {fileID: 2534367823046029320}
+    - rid: 4442717613310607497
+      type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 8651120654075287301
+          m_Value1: 16282904212326165914
+        Name: waypoints
+        m_Value:
+        - {fileID: 0}
+    - rid: 4442717706677912504
+      type: {class: 'BlackboardVariable`1[[CheckOnIntersection, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 15137386591831216200
+          m_Value1: 8382772551369041430
+        Name: Check On Intersection
+        m_Value: {fileID: 4540562065331018704}
+--- !u!114 &4540562065331018704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3695c98e7a1845a4ebbe8141ac2a3d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntersectionTraverser: {fileID: 2534367823046029320}
+  CheckIntersectionDirections: {fileID: 1794126061198271686}
+  mayActivate: 0
+--- !u!114 &1794126061198271686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec170e5ee8e470141a3710a9ff3e7444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
