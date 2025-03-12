@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using Unity.Behavior;
+using Unity.Mathematics;
 using UnityEngine;
 using Action = Unity.Behavior.Action;
 using Unity.Properties;
 using UnityEngine.InputSystem;
+using Random = UnityEngine.Random;
 
 [Serializable, GeneratePropertyBag]
 [NodeDescription(name: "Turn", story: "turn [Player] to [Direction] with [singleton] and [CheckDirection]", category: "Action", id: "74db563bc010564b997149a3211da501")]
@@ -30,16 +32,6 @@ public partial class TurnAction : Action
         Singleton.Value.LocateEnemy(Player.Value);
         CheckDirections();
         return Status.Running;
-    }
-
-    protected override Status OnUpdate()
-    {
-        return Status.Success;
-    }
-
-    protected override void OnEnd()
-    {
-        
     }
 
     private Vector2 ChooseDirection(bool isRetry)
@@ -71,10 +63,11 @@ public partial class TurnAction : Action
         return chosenDirection[0];
     }
 
-    private void MovePlayer(Vector2 moveDirection)
+    private Status MovePlayer(Vector2 moveDirection)
     {
         _isRetry = false;
         Direction.Value.GivePreferredDirection(moveDirection);
+        return Status.Success;
     }
 
     private void CheckDirections()
@@ -88,8 +81,10 @@ public partial class TurnAction : Action
         }
 
         if (_isRetry)
-        {
-            //todo add random form intersectionNode
+        { 
+            // gives a random number between 0 and 1
+            int randomNode = Random.Range(0, 2);
+            MovePlayer(CheckDirection.Value.IntersectionNode.IntersectionDirections[randomNode]);
             return;
         }
 

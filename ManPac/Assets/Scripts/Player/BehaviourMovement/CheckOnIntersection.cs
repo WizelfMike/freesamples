@@ -8,10 +8,11 @@ public class CheckOnIntersection : MonoBehaviour
 
     [SerializeField] private CheckIntersectionDirections CheckIntersectionDirections;
     
-    private IntersectionNode _intersectionNode;
-
     [HideInInspector] 
     public bool mayActivate;
+
+    private IntersectionNode _intersectionNode;
+
     
     public void OnIntersection()
     {

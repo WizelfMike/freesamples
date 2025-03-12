@@ -4,6 +4,12 @@ using UnityEngine;
 public class CheckIntersectionDirections : MonoBehaviour
 {
     private IntersectionNode _intersectionNode;
+
+    public IntersectionNode IntersectionNode
+    {
+        get => _intersectionNode;
+        private set => _intersectionNode = value;
+    }
     
     public bool CanUseDirection(Vector2 direction)
     {
