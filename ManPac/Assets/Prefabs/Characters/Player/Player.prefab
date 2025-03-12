@@ -18,6 +18,10 @@ GameObject:
   - component: {fileID: 5374233444158715369}
   - component: {fileID: 3634227034416824235}
   - component: {fileID: 4812033292595256221}
+  - component: {fileID: 5924816039669374604}
+  - component: {fileID: 3585483906664452509}
+  - component: {fileID: 7519824360829267593}
+  - component: {fileID: 2854054148233559929}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -108,7 +112,19 @@ MonoBehaviour:
   DoubleCheckThreshold: 0.7071
   OnIntersectionInteraction:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3585483906664452509}
+        m_TargetAssemblyTypeName: CheckOnIntersection, Assembly-CSharp
+        m_MethodName: OnIntersection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1620438195157519335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,11 +197,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterType: 1
-  Input: {fileID: 1620438195157519335}
   Indicator: {fileID: 9110072153446284704}
   OnActivationChange:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2854054148233559929}
+        m_TargetAssemblyTypeName: AIActivationHandler, Assembly-CSharp
+        m_MethodName: OnCharacterActivationChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5374233444158715369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +256,73 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c6e498bc6e052f4ca67492cfc8303de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5924816039669374604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Graph: {fileID: -4512876296478221723, guid: e5b55f822fc713646905aa57b7077d9e, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 4442717749242757347
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4442717749242757347
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 1305804747776144277}
+--- !u!114 &3585483906664452509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3695c98e7a1845a4ebbe8141ac2a3d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntersectionTraverser: {fileID: 2534367823046029320}
+  CheckIntersectionDirections: {fileID: 7519824360829267593}
+  mayActivate: 0
+--- !u!114 &7519824360829267593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec170e5ee8e470141a3710a9ff3e7444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2854054148233559929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305804747776144277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06351dfdad495374688a30b919bb4fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5908226681067571815

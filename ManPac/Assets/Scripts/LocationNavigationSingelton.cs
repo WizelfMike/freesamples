@@ -6,9 +6,9 @@ public class LocationNavigationSingelton : MonoBehaviour
 {
     [SerializeField]
     private  GameObject _enemy;
-
-    public bool shouldRun;
     
+    private bool _shouldRun;
+
     public float PositionDifference 
     {
         get => _closestDistance;
@@ -31,13 +31,18 @@ public class LocationNavigationSingelton : MonoBehaviour
     private static float _closestDistance;
     private static float _secondClosestDistance;
     private static bool _isXClosest;
+
+    public void ChangeDirectionState()
+    {
+        _shouldRun = !_shouldRun;
+    }
     
     public void LocateEnemy(GameObject player)
     {
         _positionDifferents.Clear();
         Vector3 playerPos = player.transform.localPosition;
         Vector3 enemyPos = _enemy.transform.localPosition;
-        if (shouldRun)
+        if (_shouldRun)
         {
             _positionDifferents.Add(enemyPos.x - playerPos.x);
             _positionDifferents.Add(enemyPos.z - playerPos.z);

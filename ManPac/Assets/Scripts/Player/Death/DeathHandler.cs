@@ -15,7 +15,7 @@ public class DeathHandler : MonoBehaviour
     [SerializeField]
     public UnityEvent<PlayerCharacter> OnRevived;
 
-    public bool IsInDanger { private get => _isInDanger; set => _isInDanger = value; }
+    public bool IsInDanger { get => _isInDanger; set => _isInDanger = value; }
     public bool CanDie { get => _canDie; set => _canDie = value; }
     public bool IsDead => !CanDie;
 
