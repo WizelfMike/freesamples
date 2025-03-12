@@ -37,7 +37,7 @@ public class DeltaTimer
         {
             _hasInvoked = true;
             _currentTimeout = 0;
-            OnTimerRanOut.Invoke();
+            OnTimerRanOut?.Invoke();
         }
     }
 }

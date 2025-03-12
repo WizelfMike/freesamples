@@ -19,6 +19,8 @@ public class IntersectionNode : MonoBehaviour
         private set => Directions = value;
     }
     
+    public ReadOnlySpan<Vector2> AllowedDirections => Directions.AsSpan();
+
     private void OnValidate()
     {
         int directionCount = Directions.Length;

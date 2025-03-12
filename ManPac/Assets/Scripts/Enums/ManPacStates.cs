@@ -1,4 +1,7 @@
-﻿public enum ManPacStates
+﻿using System;
+
+[Serializable]
+public enum ManPacStates
 {
     Avoidant,
     Aggressive
