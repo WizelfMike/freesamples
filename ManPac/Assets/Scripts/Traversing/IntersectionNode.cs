@@ -12,7 +12,7 @@ public class IntersectionNode : MonoBehaviour
         new Vector2(0, -1),
         new Vector2(-1, 0)
     };
-
+    
     public ReadOnlySpan<Vector2> AllowedDirections => Directions.AsSpan();
 
     private void OnValidate()
