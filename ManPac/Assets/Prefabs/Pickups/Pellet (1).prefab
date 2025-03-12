@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 6889182815885772004}
   - component: {fileID: 1391216471684858219}
   - component: {fileID: 8189973342266657665}
+  - component: {fileID: 4153295986373283243}
   m_Layer: 0
   m_Name: Pellet (1)
   m_TagString: Untagged
@@ -136,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PelletType: 0
   PelletScore: 10
+  TimeToRespawn: 0
   Animator: {fileID: 9071294906813314238}
   OnPickedUp:
     m_PersistentCalls:
@@ -200,6 +202,37 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4153295986373283243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6008057035462802280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1978771081
+      Data2: 1176478937
+      Data3: 374838971
+      Data4: 1126200882
+    Path: event:/PickUpBasicPellet
+  Event: 
+  EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &6068808054528601848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -262,6 +295,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fe8b8a0b4402b647a2558d1b52062d0, type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8530919718087013911, guid: 7fe8b8a0b4402b647a2558d1b52062d0, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7fe8b8a0b4402b647a2558d1b52062d0, type: 3}

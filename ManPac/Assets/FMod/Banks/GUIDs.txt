@@ -1,0 +1,7 @@
+{82a9e73c-0398-4337-9b97-2fbc36a7592c} bank:/Master
+{1ab4c7e8-72e3-0f75-1dde-a542c7545fb4} bank:/Master.strings
+{0b7fa9b6-9b32-4097-98f7-2f1626a43da5} bank:/Music
+{d251a422-17dd-4273-9d30-da9c75647bac} bus:/
+{311d2bc3-2475-42c4-987c-4e393a615723} bus:/Reverb
+{09b93af0-19bb-4840-84ba-b1deabf76fd7} event:/EvilPacManMusic
+{d17b8b87-1a96-4c5c-afcd-9fa0e6b0a935} parameter:/End Track

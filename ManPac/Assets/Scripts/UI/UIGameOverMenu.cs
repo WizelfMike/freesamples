@@ -9,18 +9,27 @@ public class UIGameOverMenu : MonoBehaviour
     [SerializeField]
     private string GameLevelName;
     
-    [Header("Conditional Text")]
+    [Header("Conditional display")]
     [SerializeField]
-    private TextMeshProUGUI TextField;
+    private RectTransform WinContainer;
     [SerializeField]
-    private string WinText;
+    private RectTransform LoseContainer;
     [SerializeField]
-    private string LoseText;
+    private RectTransform ButtonsContainer;
+    [SerializeField]
+    private Vector3 WinPosition;
+    [SerializeField]
+    private Vector3 LosePosition;
     
     private void Awake()
     {
         GameOverCheck gameOverCheck = FindAnyObjectByType<GameOverCheck>();
-        TextField.text = gameOverCheck.CurrentState == GameOverState.PlayerWon ? WinText : LoseText;
+        bool playerWon = gameOverCheck.CurrentState == GameOverState.PlayerWon;
+        RectTransform activeContainer =
+            playerWon ? WinContainer : LoseContainer;
+        activeContainer.gameObject.SetActive(true);
+        
+        ButtonsContainer.SetLocalPositionAndRotation(playerWon ? WinPosition : LosePosition, Quaternion.identity);
     }
 
     public void OnRetryClicked()
