@@ -30,7 +30,7 @@ public class MusicHandler : MonoBehaviour
         }
     }
 
-    private void StopAllMusic()
+    public void StopAllMusic()
     {
         _defaultMusicPath.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         _angryMusicPath.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
