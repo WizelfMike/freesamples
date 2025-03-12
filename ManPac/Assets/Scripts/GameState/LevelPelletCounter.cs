@@ -21,7 +21,12 @@ public class LevelPelletCounter : MonoBehaviour
     public void ListenToPelletPickup(Pellet pellet)
     {
         _levelPellets.Remove(pellet);
-        if (PelletCount <= 0)
+        if (OrdinaryCount() <= 0)
             OnNoPellets.Invoke();
+    }
+
+    private int OrdinaryCount()
+    {
+        return Pellets.Count(x => x.Type == PelletTypes.Ordinary);
     }
 }
