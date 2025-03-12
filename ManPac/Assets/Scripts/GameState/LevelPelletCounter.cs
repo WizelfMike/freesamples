@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,18 +7,26 @@ public class LevelPelletCounter : MonoBehaviour
 {
     [SerializeField]
     private UnityEvent OnNoPellets;
-    
-    private int _levelPelletCount;
+
+    private List<Pellet> _levelPellets;
+
+    public IReadOnlyList<Pellet> Pellets => _levelPellets.AsReadOnly();
+    public int PelletCount => _levelPellets.Count;
 
     private void Awake()
     {
-        _levelPelletCount = FindObjectsByType<Pellet>(FindObjectsSortMode.None).Length;
+        _levelPellets = FindObjectsByType<Pellet>(FindObjectsSortMode.None).ToList();
     }
 
-    public void ListenToPelletPickup(int pointAmount, PelletTypes pelletType)
+    public void ListenToPelletPickup(Pellet pellet)
     {
-        _levelPelletCount = Mathf.Max(_levelPelletCount - 1, 0);
-        if (_levelPelletCount <= 0)
+        _levelPellets.Remove(pellet);
+        if (OrdinaryCount() <= 0)
             OnNoPellets.Invoke();
+    }
+
+    private int OrdinaryCount()
+    {
+        return Pellets.Count(x => x.Type == PelletTypes.Ordinary);
     }
 }

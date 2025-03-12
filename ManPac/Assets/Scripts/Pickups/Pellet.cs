@@ -20,11 +20,12 @@ public class Pellet : MonoBehaviour
     private Animator Animator;
     
     [Header("Events")]
-    public UnityEvent<int, PelletTypes> OnPickedUp;
-
+    public UnityEvent<Pellet> OnPickedUp;
+    
     private SphereCollider _sphereCollider;
     
     public PelletTypes Type => PelletType;
+    public int Score => PelletScore;
     
     private void Start()
     {
@@ -37,7 +38,7 @@ public class Pellet : MonoBehaviour
     {
         if (manpac.gameObject.CompareTag("ManPac"))
         {
-            OnPickedUp.Invoke(PelletScore, PelletType);
+            OnPickedUp.Invoke(this);
             handlePellet();
         }
     }
