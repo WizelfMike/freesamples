@@ -22,8 +22,8 @@ public partial class TurnToRandomAction : Action
     {
         // gives a random number between 0 and the amount of directions in an intersection
         IntersectionNode node = IntersectionNode.Value.IntersectionNode;
-        int randomNode = Random.Range(0, node.IntersectionDirections.Length);
-        return node.IntersectionDirections[randomNode];
+        int randomNode = Random.Range(0, node.AllowedDirections.Length);
+        return node.AllowedDirections[randomNode];
     }
 
     private Status MoveToRandom()

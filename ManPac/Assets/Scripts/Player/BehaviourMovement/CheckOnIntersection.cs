@@ -6,7 +6,8 @@ public class CheckOnIntersection : MonoBehaviour
     [SerializeField]
     private IntersectionTraverser IntersectionTraverser;
 
-    [SerializeField] private CheckIntersectionDirections CheckIntersectionDirections;
+    [SerializeField] 
+    private CheckIntersectionDirections CheckIntersectionDirections;
     
     [HideInInspector] 
     public bool mayActivate;

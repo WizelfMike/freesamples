@@ -14,9 +14,11 @@ public partial class LocateEnemyAction : Action
 {
     [SerializeReference] public BlackboardVariable<string> Enemy;
     [SerializeReference] public BlackboardVariable<string> Player;
+    
     private GameObject _player;
     private GameObject _enemy;
     private List<float> _positionDifferents = new();
+    
     private List<Vector2> _directionsX = new()
     {
         new Vector2(1,0),

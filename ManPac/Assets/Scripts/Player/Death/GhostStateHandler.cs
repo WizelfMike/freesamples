@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class GhostStateHandler : MonoBehaviour
 {
     public UnityEvent<bool> OnStateChange;
+    
     private DeathHandler _thisDeathHandler;
 
     private void Start()

@@ -84,7 +84,7 @@ public partial class TurnAction : Action
         { 
             // gives a random number between 0 and 1
             int randomNode = Random.Range(0, 2);
-            MovePlayer(CheckDirection.Value.IntersectionNode.IntersectionDirections[randomNode]);
+            MovePlayer(CheckDirection.Value.IntersectionNode.AllowedDirections[randomNode]);
             return;
         }
 

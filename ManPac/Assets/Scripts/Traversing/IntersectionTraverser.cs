@@ -37,11 +37,7 @@ public class IntersectionTraverser : MonoBehaviour
             Velocity = value;
         }
     }
-    public List<IntersectionNode> InteractingIntersections
-    {
-        get => _interactingIntersections;
-        private set => _interactingIntersections = value;
-    }
+    public List<IntersectionNode> InteractingIntersections => _interactingIntersections;
     public Vector3 VelocityVector => _currentDirection * Velocity;
 
     private void OnValidate()
