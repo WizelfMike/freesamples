@@ -837,6 +837,10 @@ PrefabInstance:
       propertyPath: FacingPlane
       value: 
       objectReference: {fileID: 1821229478}
+    - target: {fileID: 1953943843000142385, guid: e42a32b8798c1e0439872ab3ba9743c4, type: 3}
+      propertyPath: FacingPlane
+      value: 
+      objectReference: {fileID: 1821229478}
     - target: {fileID: 5209934103525621851, guid: e42a32b8798c1e0439872ab3ba9743c4, type: 3}
       propertyPath: m_Name
       value: Player-Inky
@@ -1420,6 +1424,10 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5578815681350607591, guid: d6aee976d7f4595499a81bc9ae0bd9dd, type: 3}
+      propertyPath: FacingPlane
+      value: 
+      objectReference: {fileID: 1821229478}
+    - target: {fileID: 5756500742347072667, guid: d6aee976d7f4595499a81bc9ae0bd9dd, type: 3}
       propertyPath: FacingPlane
       value: 
       objectReference: {fileID: 1821229478}
@@ -27329,6 +27337,10 @@ PrefabInstance:
       propertyPath: FacingPlane
       value: 
       objectReference: {fileID: 1821229478}
+    - target: {fileID: 1656955335772222713, guid: d2458595f930c144997c15689807b2bf, type: 3}
+      propertyPath: FacingPlane
+      value: 
+      objectReference: {fileID: 1821229478}
     - target: {fileID: 5020980309628780179, guid: d2458595f930c144997c15689807b2bf, type: 3}
       propertyPath: m_Name
       value: Player-Pinky
@@ -32933,10 +32945,18 @@ PrefabInstance:
       propertyPath: managedReferences[4442717749242757352].GUID.m_Value1
       value: 3039328377644452986
       objectReference: {fileID: 0}
+    - target: {fileID: 8379598985724168264, guid: 9a6d3af2f875b814cae0d9923a5f1914, type: 3}
+      propertyPath: FacingPlane
+      value: 
+      objectReference: {fileID: 1821229478}
     - target: {fileID: 8557557554598022708, guid: 9a6d3af2f875b814cae0d9923a5f1914, type: 3}
       propertyPath: FacingPlane
       value: 
       objectReference: {fileID: 1821229478}
+    - target: {fileID: 9192058690415281246, guid: 9a6d3af2f875b814cae0d9923a5f1914, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
