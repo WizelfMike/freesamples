@@ -2,7 +2,7 @@ using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
 
-public class MusicHandler : MonoBehaviour
+public class AudioHandler : MonoBehaviour
 {
     private FMOD.Studio.EventInstance _defaultMusicPath;
 
@@ -39,5 +39,20 @@ public class MusicHandler : MonoBehaviour
     public void OnManPacStateChange(ManPacStates currentState)
     {
         SwitchTrack(currentState == ManPacStates.Aggressive);
+    }
+
+    public void PlayDivaDeathSound()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/DivaDeath");
+    }
+
+    public void PlayGhostDeathSound()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/GhostDeath");
+    }
+
+    public void PlayPelletPickupNoise()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/PickUpBasicPellet");
     }
 }
