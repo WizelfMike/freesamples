@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.AppUI.UI;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class GameOverCheck : MonoBehaviour
