@@ -10,6 +10,8 @@ public class PlayerCharacter : MonoBehaviour
     private PlayerCharacterTypes CharacterType;
     [SerializeField]
     private PlayerIndicator Indicator;
+    [SerializeField]
+    private GameObject SpriteObject;
     [Description("Broadcasts when an activation change took place, the boolean argument is the current active state")]
     public UnityEvent<bool> OnActivationChange;
 
@@ -17,10 +19,34 @@ public class PlayerCharacter : MonoBehaviour
 
     private bool _isPlayerControlled = true;
     private PlayerInput _playerInput;
+    private Animator _spriteAnimator;
+    private IFacePlane _spritePlaneFacer;
+    private IntersectionTraverser _traverser;
+    private float _spriteStartXScale = 0f;
+    private Vector3 _directionTestVector = new Vector3(0.70711f, 0f, -0.70711f);
+    
+    private static readonly int _animatorVelocity = Animator.StringToHash("Velocity");
 
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
+        _spriteAnimator = SpriteObject.GetComponent<Animator>();
+        _spritePlaneFacer = SpriteObject.GetComponent<IFacePlane>();
+        _spriteStartXScale = SpriteObject.transform.localScale.x;
+        _traverser = GetComponent<IntersectionTraverser>();
+    }
+
+    private void Update()
+    {
+        _spritePlaneFacer.FaceCamera();
+        Vector3 traverserVelocity = _traverser.VelocityVector.normalized;
+        _spriteAnimator.SetFloat(_animatorVelocity, traverserVelocity.magnitude);
+        
+        float sign = -Vector3.Dot(_directionTestVector, traverserVelocity);
+        int roundedSign = Mathf.RoundToInt(sign);
+        roundedSign = roundedSign == 0 ? 1 : roundedSign;
+        SpriteObject.transform.localScale =
+            new Vector3(roundedSign * _spriteStartXScale, _spriteStartXScale, _spriteStartXScale);
     }
 
     public void PlayerDeactivate()
