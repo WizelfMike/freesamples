@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 95255602835463689, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a2f69ea930180e545863bd6ec5028051, type: 2}
     - target: {fileID: 488186236171428266, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -52,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player-Clyde
       objectReference: {fileID: 0}
+    - target: {fileID: 2627068586432968177, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 201300abfa3f1874f9f264741cd74a5b, type: 3}
     - target: {fileID: 3087283544835451090, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: m_Sprite
       value: 
