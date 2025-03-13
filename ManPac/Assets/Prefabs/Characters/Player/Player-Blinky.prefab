@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 95255602835463689, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c5ae63969840ec744998861da0d17c25, type: 2}
     - target: {fileID: 488186236171428266, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -64,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player-Blinky
       objectReference: {fileID: 0}
+    - target: {fileID: 2627068586432968177, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93d24bd6876d59a41a0f8a7eb9eab996, type: 3}
     - target: {fileID: 3087283544835451090, guid: a30f3cfb54614b645b63cfe30791fe20, type: 3}
       propertyPath: m_Sprite
       value: 

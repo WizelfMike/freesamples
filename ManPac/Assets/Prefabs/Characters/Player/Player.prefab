@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 95255602835463689}
   - component: {fileID: 4706134737267489279}
   m_Layer: 0
-  m_Name: blueghostwalkcycle0001
+  m_Name: PlayerSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

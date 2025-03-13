@@ -32953,6 +32953,10 @@ PrefabInstance:
       propertyPath: FacingPlane
       value: 
       objectReference: {fileID: 1821229478}
+    - target: {fileID: 9192058690415281246, guid: 9a6d3af2f875b814cae0d9923a5f1914, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
